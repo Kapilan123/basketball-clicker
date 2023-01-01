@@ -1,5 +1,5 @@
 html {
-    background-image: url("https://pbs.twimg.com/media/Eg7a56aWsAAuiqG.jpg:large");
+    background-image: url("https://wallpaperset.com/w/full/a/7/e/99262.jpg");
 }
 
 .codebox {
@@ -18,7 +18,7 @@ html {
     font-size: 30px;
     left: 10px;
     top: 85px;
-    color: hsla(0, 0%, 100%, 0.8);
+    color: rgb(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
@@ -34,13 +34,31 @@ html {
     top: 1px;
     font-size: 60px;
     font-family: 'Comic Sans MS';
-    color: hsla(0, 0%, 100%, 0.8);
+    color: rgb(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
+  
+}
+
+
+.powerups {
+    position: absolute;
+    left: 10px;
+    top: 220px;
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+    color: rgb(248, 242, 242);
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+  
 }
 
 .texty {
@@ -126,11 +144,12 @@ border-radius: 192px;
     border-radius: 100%;
     border: 1px solid;
     font-family: 'Comic Sans MS';
+    
 
     background-color: #00fffb;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 
-    color: hsla(0, 0%, 100%, 0.8);
+    color: rgb(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
@@ -142,13 +161,15 @@ border-radius: 192px;
 
 
 .inline {
+    color: rgb(248, 242, 242);
     display: inline-block;
     vertical-align: middle;
 }
 
 
+
 .bybox incline {
-    color: hsla(0, 0%, 100%, 0.8);
+    color: rgb(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
