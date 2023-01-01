@@ -18,7 +18,7 @@ var cost4 = 500;
 var cost5 = 50000;
 var cost6 = 100000;
 
-var buttonvalue = 9;
+var buttonvalue = 1;
 var hide = document.getElementById("hiddentest");
 var cst2 = document.getElementById("cost2");
 var up = document.getElementById("ultra");
