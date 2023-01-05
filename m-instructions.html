@@ -2,6 +2,7 @@
 
 <html>
   
+  
 <meta name = "viewport" content = "width=device-width, user-scalable=no">
   
     <head>
@@ -21,9 +22,17 @@
 
    <p id="start"> <a href="j-screen.html">PLAY</a> </p>
 
-   <h2>HOW TO PLAY / WIN
-   
-   </h2>
+   <h2>HOW TO <span class ="auto-type"></span>   </h2>
+
+   <h4><span class ="auto-type1"></span>   </h4>
+
+  <h5><span class ="auto-type2"></span>   </h5>
+
+  <h6><span class ="auto-type3"></span>   </h6>
+
+   <h7><span class ="auto-type4"></span>   </h7>
+
+
 
   
   <style>
@@ -42,12 +51,13 @@ background-image: url("start-background.png");       color: white;
   background: orange;
   font-family: 'Comic Sans MS';
   color: rgb(248, 242, 242);
+     position: absolute;
+      left:640px;
+      top: 1px;
   font-weight: bold;
   border-radius: 100px;
   padding: 60px;
-      position: absolute;
-      left:640px;
-      top: 1px;
+     
 
     }
     
@@ -87,7 +97,7 @@ background-image: url("start-background.png");       color: white;
     }
 
       h2{
-              font-size: 50;
+              font-size: 48;
         text-align: center;
   font-family: 'Comic Sans MS';
   color: rgb(248, 242, 242);
@@ -98,11 +108,108 @@ background-image: url("start-background.png");       color: white;
 
     }
 
+         h4{
+              font-size: 38;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1120px;
+      top: 390px;
+
+    }
+
+             h5{
+              font-size: 38;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1120px;
+      top: 490px;
+
+    }
+
+         h6{
+              font-size: 38;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1120px;
+      top: 590px;
+
+    }
+
+           h7{
+              font-size: 38;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1120px;
+      top: 790px;
+
+    }
+
+
+
+
 
 
     
   </style>
 
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+      var types = new Typed(".auto-type", {
+        strings: [" PLAY THE GAME", " WIN THE GAME"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true 
+
+        
+      })
+
+      var types = new Typed(".auto-type1", {
+        strings: [" - GOAL: MAKE IT TO THE NBA"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: false 
+
+      })
+          var types = new Typed(".auto-type2", {
+        strings: [" - CLICK BASKETBALLS TO SCORE POINTS"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: false 
+
+      })
+
+              var types = new Typed(".auto-type3", {
+        strings: [" - USE YOUR POINTS TO BUY UR WAY UP "],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: false 
+
+      })
+              var types = new Typed(".auto-type4", {
+        strings: [" - WATCH OUT FOR SURPRISES......"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: false 
+
+      })
+  
+  </script>
+  
+  
 </body>
 
  </html>
