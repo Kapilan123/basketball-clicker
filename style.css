@@ -12,20 +12,73 @@ html {
     background-color: #0000000;
 }
 
-.testy {
-   font-family: 'Comic Sans MS';
-    position: absolute;
-    font-size: 30px;
-    left: 10px;
-    top: 85px;
-    color: rgb(248, 242, 242);
-    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1);
-}
+ .arrow1{
+      background-image: url("https://icons.iconarchive.com/icons/saki/nuoveXT/128/Small-arrow-left-icon.png");
+      height: 155px;
+      width: 154px;
+      position: absolute;
+      left:1630px;
+      top: 380px;
+
+    }
+
+ .arrow2{
+      background-image: url("https://icons.iconarchive.com/icons/saki/nuoveXT/128/Small-arrow-left-icon.png");
+      height: 155px;
+      width: 154px;
+      position: absolute;
+      left:1630px;
+      top: 800px;
+
+    }
+
+ .arrow3{
+      background-image: url("https://icons.iconarchive.com/icons/saki/nuoveXT/128/Small-arrow-left-icon.png");
+      height: 155px;
+      width: 154px;
+      position: absolute;
+      left:1630px;
+      top: 580px;
+
+    }
+
+            h11{
+              font-size: 27;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1730px;
+      top: 430px;
+
+    }
+
+         h12{
+              font-size: 27;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1730px;
+      top: 640px;
+
+    }
+
+           h13{
+              font-size: 27;
+        text-align: center;
+  font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-weight: bold;
+      position: absolute;
+      left:1730px;
+      top: 860px;
+
+    }
+
+    
 
 
 .name {
@@ -39,7 +92,7 @@ html {
   border-radius: 100px;
   padding: 60px;
       position: absolute;
-      left:640px;
+      left:620px;
       top: 1px;
 }
 
@@ -47,7 +100,7 @@ html {
 .powerups {
     position: absolute;
     left: 10px;
-    top: 220px;
+    top: 620px;
     font-size: 30px;
     font-family: 'Comic Sans MS';
     color: rgb(248, 242, 242);
@@ -57,6 +110,25 @@ html {
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
+
+  
+}
+
+#var {
+    position: absolute;
+    left: 975px;
+    top: 380px;
+    font-size: 36px;
+    font-family: 'Comic Sans MS';
+    color: whitesmoke ;
+    text-shadow: orange 
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
   
 }
 
@@ -69,6 +141,7 @@ html {
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
+  
 }
 .version {
     font-family: 'Comic Sans MS';
@@ -86,9 +159,21 @@ html {
 
 }
 
+   h10 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    font-size: 50px;
+    left: 1570px;
+    top: 250px;
+    color: orange;
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
 
-
-
+}
 
 
 
@@ -100,17 +185,21 @@ html {
   background: blue;
   font-family: 'Comic Sans MS';
   color: rgb(248, 242, 242);
+  font-size: 35px;
   font-weight: bold;
-  border-radius: 10px;
-  padding: 6px;
+  border-radius: 20px;
+  padding: 15px;
   position: absolute;
-    left: 8px;
-    top: 150px;
+    left: 1600px;
+    top: 980px;
 }
 
 #cookie{
-  margin: 0px;
-  padding: 0px;
+  position: absolute;
+ height: 390px;
+width: 390px;  
+  left: 885;
+  top: 500;
   cursor: pointer;
 border-radius: 192px;
 }
@@ -147,6 +236,9 @@ border-radius: 192px;
 
 
 .bybox incline {
+  position: absolute;
+  left: 800;
+  top: 500;
     color: rgb(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
