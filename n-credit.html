@@ -1,0 +1,138 @@
+<html>
+
+
+  <body>
+    <h9>v1.1.0.KAP.S</h9>
+
+       <p id="start"> <a href="j-screen.html">PLAY</a> </p>
+
+
+  <div class="container">
+    <h1> <span class="auto-type"></span></h1>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+      var types = new Typed(".auto-type", {
+        strings: ["100% Made By Kapilan Sivapatham "],
+        typeSpeed: 100,
+        backSpeed: 150,
+        loop: false 
+
+        
+      })
+
+  
+  </script>
+
+<style>
+
+        a{
+  position: absolute;
+  left: 1035px;
+  top: 830px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #D1D1CD;
+  font-size: 48px;
+            font-family: 'Arial';
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background: #000522;
+  padding: 8px 16px;
+  text-shadow: none;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
+ }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  background: #000522;
+  overflow: hidden;
+}
+
+       h9{
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    font-size: 30px;
+    left: 16px;
+    top: 15px;
+    color: orange;
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
+
+
+    }
+  
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #D1D1CD;
+  font-size: 24px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background: #000522;
+  padding: 8px 16px;
+  text-shadow: none;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
+}
+
+#login:hover{
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+#login:active{
+  box-shadow: none;
+}
+
+#content{
+  visibility: hidden;
+}
+   
+
+    </style>
+
+
+
+<script>
+
+  let savedUser;
+  socket.on('loggedIn', function(user){
+    document.getElementById('login').style.visibility = 'hidden';
+    document.getElementById('content').style.visibility = 'visible';
+    updateGame({"user": user, "notify": true});
+  });
+
+  socket.on('gameUpdate', function(updateObj){
+    updateGame(updateObj);
+  });
+
+  
+</script>
+
+
+  
+  </body>
+
+
+
+  
+
+</html>

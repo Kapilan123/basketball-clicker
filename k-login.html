@@ -1,0 +1,81 @@
+<html>
+
+
+  <body>
+
+    <button onclick="LoginWithReplit()" id="login">CLICK TO LOGIN</button>
+
+
+<style>
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  background: #000522;
+  overflow: hidden;
+}
+  
+#login{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #D1D1CD;
+  font-size: 24px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background: #000522;
+  padding: 8px 16px;
+  text-shadow: none;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
+}
+
+#login:hover{
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+#login:active{
+  box-shadow: none;
+}
+
+#content{
+  visibility: hidden;
+}
+   
+
+    </style>
+
+
+
+<script>
+
+  let savedUser;
+  socket.on('loggedIn', function(user){
+    document.getElementById('login').style.visibility = 'hidden';
+    document.getElementById('content').style.visibility = 'visible';
+    updateGame({"user": user, "notify": true});
+  });
+
+  socket.on('gameUpdate', function(updateObj){
+    updateGame(updateObj);
+  });
+
+  
+</script>
+
+
+  
+  </body>
+
+
+
+  
+
+</html>
