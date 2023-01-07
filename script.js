@@ -12,14 +12,14 @@ var clickval3 = 0;
 var clickval4 = 0;
 var clickval6 = 0;
 var speed = 1010;
-var cost = 100;
-var cost2 = 1000;
-var cost3 = 10000;
-var cost4 = 500;
+var cost = 10;
+var cost2 = 50;
+var cost3 = 250;
+var cost4 = 20;
 var cost5 = 50000;
 var cost6 = 100000;
 
-var buttonvalue = 1;
+var buttonvalue = 200;
 var hide = document.getElementById("hiddentest");
 var cst2 = document.getElementById("cost2");
 var up = document.getElementById("ultra");
@@ -46,7 +46,7 @@ var upgbuy4 = false;
 var upgbuy6 = false;
 var upgbuy = false;
 var hiddenoof = false;
-var mtl = "Kapilan Here, You Do Not Have Enough Clicks To Buy: ";
+var mtl = "CLICK MORE, You Do Not Have Enough BASKETBALLS To Buy: ";
 //if (e >= 10) {
     //if (hide.style.visibility === 'visible') {
      //   hide.style.visibility = 'hidden';
@@ -100,18 +100,18 @@ hide.style.visibility = 'hidden';
 function myfunction() {
     e = e + buttonvalue;
     document.getElementById("var").innerHTML = "clicks: " + e;
-    if (e >= 1000) {
+    if (e >= 100) {
        hide.style.visibility = 'visible';
     }
-    if (e >= 10000) {
+    if (e >= 500) {
         hide2.style.visibility = 'visible';
     }
     
-    if (e >= 50000) {
+    if (e >= 1000) {
         hide3.style.visibility = 'visible';
     }
 
-    if (e >= 100000) {
+    if (e >= 2000) {
         hide4.style.visibility = 'visible';
     }
        
@@ -127,10 +127,10 @@ function buyupgrade() {
     if (e >= cost) {
         upg = upg + 1;
         e = e - cost;
-        cost = cost + 25;
+        cost = cost + 1;
         upgbuy = true;
-        clickval = clickval + 10;
-        document.getElementById("upgrade").innerHTML = " AUTO CLICKERS: " + upg;
+        clickval = clickval + 1;
+        document.getElementById("upgrade").innerHTML = " BASKETBALLS: " + upg;
         document.getElementById("cost").innerHTML = "COST: " + cost;
         updac();
         
@@ -152,11 +152,11 @@ function buyupgrade1() {
     if (e >= cost2) {
         upg2 = upg2 + 1;
         e = e - cost2;
-        cost2 = cost2 + 250;
-        clickval1 = clickval1 + 1;
+        cost2 = cost2 + 10;
+        clickval1 = clickval1 + 8;
         upgbuy2 = true;
         cst2.innerHTML = "COST: " + cost2;
-        up.innerHTML = "ULTRA CLICKERS: " + upg2;
+        up.innerHTML = "BASKETBALL NET: " + upg2;
         updac();
         if (check === false) {
             if (upgbuy2 === true) {
@@ -174,11 +174,11 @@ function buyupgrade3() {
     if (e >= cost3) {
         upg3 = upg3 + 1;
         e = e - cost3;
-        cost3 = cost3 + 1000;
-        clickval3 = clickval3 + 10;
+        cost3 = cost3 + 20;
+        clickval3 = clickval3 + 20;
         upgbuy3 = true;
         cst3.innerHTML = "COST: " + cost3;
-        omgc.innerHTML = "OMEGA CLICKERS: " + upg3;
+        omgc.innerHTML = "WATER BOTTLE: " + upg3;
         updac();
         if (check3 === false) {
             if (upgbuy3 === true) {
@@ -195,10 +195,10 @@ function upgradeclick() {
     if (e >= cost4) {
         e = e - cost4;
         upg4 = upg4 + 1;
-        buttonvalue = buttonvalue + 10;
-        cost4 = cost4 + 100;
+        buttonvalue = buttonvalue + 3;
+        cost4 = cost4 + 5;
         updac();
-        up4.innerHTML = "BUTTON UPGRADES: " + upg4;
+        up4.innerHTML = "BASKETBALL SHOES: " + upg4;
         cst4.innerHTML = "COST: " + cost4;
     } else {
         alert(mtl + "\"BUTTON UPGRADE\"!");
