@@ -34,7 +34,7 @@ var cost7 = 2000;
 var cost8 = 5000;
 var cost9 = 10000;
 var cost10 = 20000;
-var cost11 = 50000;
+var cost11 = 100000;
 var cost12 = 1000000;
 
 
@@ -421,7 +421,7 @@ function buyd1() {
         cost10 += 500;
         upgbuy10 = true;
         clickval10 += 60;
-        d1.innerText = "D1 COLLEGE CONTRACT: " + upg10;
+        d1.innerText = "D1 CONTRACT: " + upg10;
         cst10.innerText = "COST: " + cost10;
         updac();
         if (check10 === false) {
@@ -431,7 +431,7 @@ function buyd1() {
             }
         }
     } else {
-        alert(mtl + "\"D1 COLLEGE \"!")
+        alert(mtl + "\"D1 CONTRACT \"!")
     }
 }
 
@@ -442,7 +442,7 @@ function buymanager() {
         cost11 += 500;
         upgbuy11 = true;
         clickval11 += 60;
-        manager.innerText = "PERSONAL MANAGER: " + upg11;
+        manager.innerText = "PRO MANAGER: " + upg11;
         cst11.innerText = "COST: " + cost11;
         updac();
         if (check11 === false) {
@@ -452,7 +452,7 @@ function buymanager() {
             }
         }
     } else {
-        alert(mtl + "\"PERSONAL MANAGER\"!")
+        alert(mtl + "\"PRO MANAGER\"!")
     }
 }
 
@@ -463,17 +463,17 @@ function buynba() {
         cost12 += 500;
         upgbuy12 = true;
         clickval12 += 60;
-        nba.innerText = "NBA DRAFT SEAT: " + upg12;
+        nba.innerText = "NBA DRAFT: " + upg12;
         cst12.innerText = "COST: " + cost12;
         updac();
         if (check12 === false) {
             if (upgbuy12 === true) {
-                setInterval(click12, 950);
+                setInterval(click12, 95000);
                 check12 = true;
             }
         }
     } else {
-        alert(mtl + "\"NBA DRAFT SEAT \"!")
+        alert(mtl + "\"NBA DRAFT \"!")
     }
 }
 

@@ -111,8 +111,8 @@ html {
 
 #var {
     position: absolute;
-    left: 945px;
-    top: 380px;
+    left: 935px;
+    top: 280px;
     font-size: 36px;
     font-family: 'Comic Sans MS';
     color: orange;
@@ -190,7 +190,7 @@ html {
  height: 390px;
 width: 390px;  
   left: 885;
-  top: 500;
+  top: 400;
   cursor: pointer;
 border-radius: 192px;
 }
@@ -204,7 +204,7 @@ border-radius: 192px;
     font-family: 'Comic Sans MS';
     
 
-    background-color: #ff9500;
+    background-color: orange;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 
     color: rgb(255, 0, 0);
@@ -217,13 +217,373 @@ border-radius: 192px;
 }
 
 
+#buybox-inline1{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 190;
+  cursor: pointer;
+}
 
-.inline {
+.inline1 {
     color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 210;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline1 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 270;
     display: inline-block;
     vertical-align: middle;
 }
 
+#buybox-inline2{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 320;
+  cursor: pointer;
+}
+
+.inline2 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 340;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline2 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 400;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline3{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 450;
+  cursor: pointer;
+}
+
+.inline3 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 470;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline3 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 530;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline4{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 580;
+  cursor: pointer;
+}
+
+.inline4 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline4 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 660;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline5{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 710;
+  cursor: pointer;
+}
+
+.inline5 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 730;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline5 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 790;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline6{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 840;
+  cursor: pointer;
+}
+
+.inline6 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 860px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline6 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 920;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline7{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 10px;
+  top: 970;
+  cursor: pointer;
+}
+
+.inline7 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 990px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline7 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 10px;
+  top: 1050;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline8{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 610px;
+  top: 840;
+  cursor: pointer;
+}
+
+.inline8 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 700px;
+  top: 860px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline8 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 620px;
+  top: 920;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline9{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 610px;
+  top: 970;
+  cursor: pointer;
+}
+
+.inline9 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 700px;
+  top: 990;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline9 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 620px;
+  top: 1060;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline10{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 1080px;
+  top: 840;
+  cursor: pointer;
+}
+
+.inline10 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1170px;
+  top: 860px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline10 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1080px;
+  top: 920;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#buybox-inline11{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 1080px;
+  top: 970;
+  cursor: pointer;
+}
+
+.inline11 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1170px;
+  top: 990px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline11 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1080px;
+  top: 1060;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buybox-inline12{
+ height: 80px;
+width: 80px;  
+position: absolute; 
+  left: 1580px;
+  top: 50;
+  cursor: pointer;
+}
+
+.inline12 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1670px;
+  top: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-inline12 {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1580px;
+  top: 130;
+    display: inline-block;
+    vertical-align: middle;
+}
+.inline {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
@@ -232,7 +592,7 @@ border-radius: 192px;
   position: absolute;
   left: 800;
   top: 500;
-    color: rgb(248, 242, 242);
+    color: orange(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
@@ -241,3 +601,44 @@ border-radius: 192px;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
+
+
+
+
+
+  .progress-bar {
+    position: relative;
+    left: 1550px;
+    top: 400px;
+    width: 90px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 1px;
+    
+  }
+
+  .progress-bar-fill {
+    height: 1%;
+    background: orange; 
+    transition: width 0.5s;
+    
+    
+  }
+
+  .progress-bar-value {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cont-weight: bold;
+    
+  }
+
+  
