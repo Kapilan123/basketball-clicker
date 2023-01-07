@@ -100,7 +100,7 @@ html {
 .powerups {
     position: absolute;
     left: 100px;
-    top: 320px;
+    top: 80px;
     font-size: 65px;
     font-family: 'Comic Sans MS';
     color:  orange 
@@ -111,7 +111,7 @@ html {
 
 #var {
     position: absolute;
-    left: 975px;
+    left: 945px;
     top: 380px;
     font-size: 36px;
     font-family: 'Comic Sans MS';
@@ -197,17 +197,17 @@ border-radius: 192px;
 
 
 .buybox {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
     border: 1px solid;
     font-family: 'Comic Sans MS';
     
 
-    background-color: #00fffb;
+    background-color: #ff9500;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 
-    color: rgb(248, 242, 242);
+    color: rgb(255, 0, 0);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),

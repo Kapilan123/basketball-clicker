@@ -37,7 +37,7 @@ l<!DOCTYPE html>
 
 
       
-    <a href="https://www.google.com"><button id="exitgamebtn">CLICK TO EXIT</button></a>
+    <a href="j-screen.html"><button id="exitgamebtn">CLICK TO RETURN</button></a>
 
   <img id="basketball-click" onclick="myfunction()" src="https://static.vecteezy.com/system/resources/thumbnails/011/421/099/small/realistic-vector-basketball-isolated-png.png"/>
       
@@ -78,6 +78,46 @@ l<!DOCTYPE html>
         <div style="color: rgb(248, 242, 242);" id="cost6">COST: 1000</div>
     </div>
 
+    <div id="hide7">
+        <button onclick="buyhou()" class="buybox inline"></button>
+        <div class="inline" id="house">HOUSE LEAGUE CONTRACT: 0</div>
+        <div style="color: rgb(248, 242, 242);" id="cost7">COST: 2000</div>
+    </div>
+
+    <div id="hide8">
+        <button onclick="buyaau()" class="buybox inline"></button>
+        <div class="inline" id="aau">AAU CONTRACT: 0</div>
+        <div style="color: rgb(248, 242, 242);" id="cost8">COST: 5000</div>
+    </div>
+
+    <div id="hide9">
+        <button onclick="buytrainer()" class="buybox inline"></button>
+        <div class="inline" id="trainer">PERSONAL TRAINER: 0</div>
+        <div style="color: rgb(248, 242, 242);" id="cost9">COST: 10000</div>
+    </div>
+
+    <div id="hide10">
+        <button onclick="buyd1()" class="buybox inline"></button>
+        <div class="inline" id="d1">D1 COLLEGE CONTRACT: 0</div>
+        <div style="color: rgb(248, 242, 242);" id="cost10">COST: 20000</div>
+    </div>
+
+    <div id="hide11">
+        <button onclick="buymanager()" class="buybox inline"></button>
+        <div class="inline" id="manager">PERSONAL MANAGER: 0</div>
+        <div style="color: rgb(248, 242, 242);" id="cost11">COST: 50000</div>
+    </div>
+
+     <div id="hide12">
+        <button onclick="buynba()" class="buybox inline"></button>
+        <div class="inline" id="nba">NBA DRAFT SEAT: 0</div>
+        <div style="color: rgb(248, 242, 242);" id="cost12">COST: 1000000</div>
+    </div>
+
+
+
+
+    
     <script src="script.js">
 
     </script>
@@ -145,7 +185,7 @@ l<!DOCTYPE html>
       })
 
       var types = new Typed(".auto-type12", {
-        strings: ["AAU CONTRACT"],
+        strings: ["HOUSE LEAGUE"],
         typeSpeed: 350,
         backSpeed: 100,
         loop: false 
