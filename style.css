@@ -51,6 +51,13 @@ html {
       position: absolute;
       left:1730px;
       top: 430px;
+                  text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 
     }
 
@@ -63,6 +70,13 @@ html {
       position: absolute;
       left:1730px;
       top: 640px;
+               text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 
     }
 
@@ -75,6 +89,13 @@ html {
       position: absolute;
       left:1730px;
       top: 860px;
+                 text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 
     }
 
@@ -187,7 +208,7 @@ html {
 
 #exitgamebtn {
   text-align: center;
-  background: red;
+  background: blue;
   font-family: 'Comic Sans MS';
   color: rgb(248, 242, 242);
   font-size: 35px;
@@ -719,7 +740,7 @@ position: absolute;
 
 #buybox-inline12{
    color: orange;
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Solid_red.svg/512px-Solid_red.svg.png?20150316143248");
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/2048px-Solid_blue.svg.png");
   height: 80px;
 width: 80px;  
 position: absolute; 
@@ -791,7 +812,24 @@ position: absolute;
 
 
 
+.proupg1 {
+    color: rgb(248, 242, 242);
+    font-size: 60em;
+    font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 1580px;
+  top: 640;
+    display: inline-block;
+    vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
 
+
+}
 
   .progress-bar {
     position: relative;
@@ -799,8 +837,14 @@ position: absolute;
     top: 400px;
     width: 90px;
     height: 450px;
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 1px;
+        text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
     
   }
 
@@ -825,6 +869,13 @@ position: absolute;
     justify-content: center;
 
     cont-weight: bold;
+
+        text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
     
   }
 

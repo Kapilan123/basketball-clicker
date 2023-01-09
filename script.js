@@ -36,11 +36,16 @@ var cost9 = 2000;
 var cost10 = 5000;
 var cost11 = 10000;
 var cost12 = 50000;
+var proupg1 = 0;
+var proupg2 = 0;
+
 
 
 var buttonvalue = 100000;
 var hide = document.getElementById("hiddentest");
 var cst2 = document.getElementById("cost2");
+var proupg2 = document.getElementById("proupg2");
+var proupg1 = document.getElementById("proupg1");
 var up = document.getElementById("ultra");
 var hide2 = document.getElementById("hide2");
 var cst3 = document.getElementById("cost3");
@@ -78,6 +83,9 @@ var manager = document.getElementById("manager");
 var cst12 = document.getElementById("cost12");
 var hide12 = document.getElementById("hide12");
 var nba = document.getElementById("nba");
+
+var nukc = document.getElementById("prog1");
+
 
 
 var upgbuy2 = false;
@@ -234,6 +242,8 @@ function buyupgrade() {
         clickval = clickval + 1;
         document.getElementById("upgrade").innerHTML = " BASKETBALLS: " + upg;
         document.getElementById("cost").innerHTML = "COST: " + cost;
+        document.getElementById("proupg1").innerHTML = "9%" 
+
         updac();
         
         if (check1 === false) {
@@ -252,13 +262,15 @@ function buyupgrade() {
 
 function buyupgrade1() {
     if (e >= cost2) {
-        upg2 = upg2 + 1;
+        upg2 = upg2 + 1
+        proupg2 = 5
         e = e - cost2;
         cost2 = cost2 + 5;
         clickval1 = clickval1 + 5;
         upgbuy2 = true;
         cst2.innerHTML = "COST: " + cost2;
         up.innerHTML = "BASKETBALL NET: " + upg2;
+              document.getElementById("proupg1").innerHTML = "27%" 
         updac();
         if (check === false) {
             if (upgbuy2 === true) {
@@ -281,6 +293,7 @@ function buyupgrade3() {
         upgbuy3 = true;
         cst3.innerHTML = "COST: " + cost3;
         omgc.innerHTML = "WATER BOTTLE: " + upg3;
+        document.getElementById("proupg1").innerHTML = "36%" 
         updac();
         if (check3 === false) {
             if (upgbuy3 === true) {
@@ -302,6 +315,7 @@ function upgradeclick() {
         updac();
         up4.innerHTML = "BASKETBALL SHOES: " + upg4;
         cst4.innerHTML = "COST: " + cost4;
+        document.getElementById("proupg1").innerHTML = "18%" 
     } else {
         alert(mtl + "\"BASKETBALL SHOES\"!");
     }
@@ -316,6 +330,7 @@ function buyupgrade4() {
         clickval4 += 20;
         hype.innerText = "PEE WEE LEAGUE CONTRACT: "+ upg5;
         cst5.innerText = "COST: " + cost5;
+       document.getElementById("proupg1").innerHTML = "45%" 
         updac();
         if (check4 === false) {
             if (upgbuy4 === true) {
@@ -339,6 +354,7 @@ function buynuk() {
         clickval6 += 50;
         nukc.innerText = "TRAINING EQUIPMENT: " + upg6;
         cst6.innerText = "COST: " + cost6;
+        document.getElementById("proupg1").innerHTML = "54%" 
         updac();
         if (check6 === false) {
             if (upgbuy6 === true) {
@@ -360,6 +376,7 @@ function buyhou() {
         clickval7 += 100;
         house.innerText = "HOUSE LEAGUE CONTRACT: " + upg7;
         cst7.innerText = "COST: " + cost7;
+        document.getElementById("proupg1").innerHTML = "50%" 
         updac();
         if (check7 === false) {
             if (upgbuy7 === true) {
@@ -381,6 +398,7 @@ function buyaau() {
         clickval8 += 250;
         aau.innerText = "AAU CONTRACT: " + upg8;
         cst8.innerText = "COST: " + cost8;
+        document.getElementById("proupg1").innerHTML = "72%" 
         updac();
         if (check8 === false) {
             if (upgbuy8 === true) {
@@ -402,6 +420,7 @@ function buytrainer() {
         clickval9 += 500;
         trainer.innerText = "PERSONAL TRAINER: " + upg9;
         cst9.innerText = "COST: " + cost9;
+        document.getElementById("proupg1").innerHTML = "81%" 
         updac();
         if (check9 === false) {
             if (upgbuy9 === true) {
@@ -423,6 +442,7 @@ function buyd1() {
         clickval10 += 1000;
         d1.innerText = "D1 CONTRACT: " + upg10;
         cst10.innerText = "COST: " + cost10;
+        document.getElementById("proupg1").innerHTML = "90%" 
         updac();
         if (check10 === false) {
             if (upgbuy10 === true) {
@@ -444,6 +464,7 @@ function buymanager() {
         clickval11 += 2000;
         manager.innerText = "PRO MANAGER: " + upg11;
         cst11.innerText = "COST: " + cost11;
+        document.getElementById("proupg1").innerHTML = "98%" 
         updac();
         if (check11 === false) {
             if (upgbuy11 === true) {
@@ -476,4 +497,6 @@ function buynba() {
         alert(mtl + "\"NBA DRAFT \"!")
     }
 }
+
+
 
