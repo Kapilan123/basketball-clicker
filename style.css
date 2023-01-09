@@ -103,7 +103,14 @@ html {
     top: 80px;
     font-size: 65px;
     font-family: 'Comic Sans MS';
-    color:  orange 
+    color:  orange;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
   
 
   
@@ -116,6 +123,13 @@ html {
     font-size: 36px;
     font-family: 'Comic Sans MS';
     color: orange;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
   
                 
 
@@ -193,6 +207,7 @@ width: 390px;
   top: 400;
   cursor: pointer;
 border-radius: 192px;
+  
 }
 
 
@@ -235,6 +250,13 @@ position: absolute;
   top: 210;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline1 {
     color: rgb(248, 242, 242);
@@ -245,6 +267,13 @@ position: absolute;
   top: 270;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline2{
@@ -265,6 +294,13 @@ position: absolute;
   top: 340;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline2 {
     color: rgb(248, 242, 242);
@@ -275,6 +311,13 @@ position: absolute;
   top: 400;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline3{
@@ -295,6 +338,13 @@ position: absolute;
   top: 470;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline3 {
     color: rgb(248, 242, 242);
@@ -305,6 +355,13 @@ position: absolute;
   top: 530;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline4{
@@ -325,6 +382,13 @@ position: absolute;
   top: 600;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline4 {
     color: rgb(248, 242, 242);
@@ -335,6 +399,13 @@ position: absolute;
   top: 660;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline5{
@@ -355,6 +426,13 @@ position: absolute;
   top: 730;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline5 {
     color: rgb(248, 242, 242);
@@ -365,6 +443,13 @@ position: absolute;
   top: 790;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline6{
@@ -385,6 +470,13 @@ position: absolute;
   top: 860px;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline6 {
     color: rgb(248, 242, 242);
@@ -395,6 +487,13 @@ position: absolute;
   top: 920;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline7{
@@ -415,6 +514,13 @@ position: absolute;
   top: 990px;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline7 {
     color: rgb(248, 242, 242);
@@ -425,6 +531,13 @@ position: absolute;
   top: 1050;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline8{
@@ -445,6 +558,13 @@ position: absolute;
   top: 860px;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline8 {
     color: rgb(248, 242, 242);
@@ -455,6 +575,13 @@ position: absolute;
   top: 920;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline9{
@@ -475,6 +602,13 @@ position: absolute;
   top: 990;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline9 {
     color: rgb(248, 242, 242);
@@ -485,6 +619,13 @@ position: absolute;
   top: 1060;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline10{
@@ -505,6 +646,13 @@ position: absolute;
   top: 860px;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline10 {
     color: rgb(248, 242, 242);
@@ -515,6 +663,13 @@ position: absolute;
   top: 920;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 
@@ -536,6 +691,13 @@ position: absolute;
   top: 990px;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline11 {
     color: rgb(248, 242, 242);
@@ -546,16 +708,27 @@ position: absolute;
   top: 1060;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 
 #buybox-inline12{
- height: 80px;
+   color: orange;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Solid_red.svg/512px-Solid_red.svg.png?20150316143248");
+  height: 80px;
 width: 80px;  
 position: absolute; 
   left: 1580px;
   top: 50;
   cursor: pointer;
 }
+
+        
 
 .inline12 {
     color: rgb(248, 242, 242);
@@ -566,6 +739,13 @@ position: absolute;
   top: 80px;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .c-inline12 {
     color: rgb(248, 242, 242);
@@ -576,6 +756,13 @@ position: absolute;
   top: 130;
     display: inline-block;
     vertical-align: middle;
+      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
 }
 .inline {
     color: rgb(248, 242, 242);

@@ -238,7 +238,7 @@ function buyupgrade() {
         
         if (check1 === false) {
             if (upgbuy === true) {
-                setInterval(click1, 10000000);
+                setInterval(click1, 9500000);
                 check1 = true;
                 
             }
@@ -263,7 +263,7 @@ function buyupgrade1() {
         if (check === false) {
             if (upgbuy2 === true) {
                 
-                setInterval(click, 1000000);
+                setInterval(click, 9500000);
                 check = true;
             }
         }
@@ -284,7 +284,7 @@ function buyupgrade3() {
         updac();
         if (check3 === false) {
             if (upgbuy3 === true) {
-                setInterval(click3, 100000);
+                setInterval(click3, 9500000);
                 check3 = true;
             }
         }
@@ -319,7 +319,7 @@ function buyupgrade4() {
         updac();
         if (check4 === false) {
             if (upgbuy4 === true) {
-                setInterval(click4, 10000);
+                setInterval(click4, 9500000);
                 check4 = true;
             }
         }
@@ -342,7 +342,7 @@ function buynuk() {
         updac();
         if (check6 === false) {
             if (upgbuy6 === true) {
-                setInterval(click6, 1000);
+                setInterval(click6, 950000);
                 check6 = true;
             }
         }
@@ -363,7 +363,7 @@ function buyhou() {
         updac();
         if (check7 === false) {
             if (upgbuy7 === true) {
-                setInterval(click7, 950);
+                setInterval(click7, 950000);
                 check7 = true;
             }
         }
@@ -384,7 +384,7 @@ function buyaau() {
         updac();
         if (check8 === false) {
             if (upgbuy8 === true) {
-                setInterval(click8, 950);
+                setInterval(click8, 95000);
                 check8 = true;
             }
         }
@@ -405,7 +405,7 @@ function buytrainer() {
         updac();
         if (check9 === false) {
             if (upgbuy9 === true) {
-                setInterval(click9, 950);
+                setInterval(click9, 95000);
                 check9 = true;
             }
         }
@@ -426,7 +426,7 @@ function buyd1() {
         updac();
         if (check10 === false) {
             if (upgbuy10 === true) {
-                setInterval(click10, 950);
+                setInterval(click10, 9500);
                 check10 = true;
             }
         }
@@ -447,7 +447,7 @@ function buymanager() {
         updac();
         if (check11 === false) {
             if (upgbuy11 === true) {
-                setInterval(click11, 950);
+                setInterval(click11, 9500);
                 check11 = true;
             }
         }
@@ -468,7 +468,7 @@ function buynba() {
         updac();
         if (check12 === false) {
             if (upgbuy12 === true) {
-                setInterval(click12, 95000);
+                setInterval(click12, 950);
                 check12 = true;
             }
         }
