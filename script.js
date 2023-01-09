@@ -24,21 +24,21 @@ var clickval10 = 0;
 var clickval11 = 0;
 var clickval12 = 0;
 var speed = 1010;
-var cost = 10;
-var cost2 = 50;
-var cost3 = 250;
-var cost4 = 20;
-var cost5 = 500;
-var cost6 = 1000;
-var cost7 = 2000;
-var cost8 = 5000;
-var cost9 = 10000;
-var cost10 = 20000;
-var cost11 = 100000;
-var cost12 = 1000000;
+var cost = 5;
+var cost2 = 20;
+var cost3 = 50;
+var cost4 = 10;
+var cost5 = 100;
+var cost6 = 250;
+var cost7 = 500;
+var cost8 = 1000;
+var cost9 = 2000;
+var cost10 = 5000;
+var cost11 = 10000;
+var cost12 = 50000;
 
 
-var buttonvalue = 1000000;
+var buttonvalue = 100000;
 var hide = document.getElementById("hiddentest");
 var cst2 = document.getElementById("cost2");
 var up = document.getElementById("ultra");
@@ -185,36 +185,36 @@ hide.style.visibility = 'hidden';
 function myfunction() {
     e = e + buttonvalue;
     document.getElementById("var").innerHTML = "clicks: " + e;
-    if (e >= 100) {
+    if (e >= 20) {
        hide.style.visibility = 'visible';
     }
-    if (e >= 500) {
+    if (e >= 50) {
         hide2.style.visibility = 'visible';
     }
     
-    if (e >= 1000) {
+    if (e >= 100) {
         hide3.style.visibility = 'visible';
     }
 
-    if (e >= 2000) {
+    if (e >= 250) {
         hide4.style.visibility = 'visible';
     }
-    if (e >= 5000) {
+    if (e >= 500) {
         hide7.style.visibility = 'visible';
     }
-    if (e >= 6000) {
+    if (e >= 1000) {
         hide8.style.visibility = 'visible';
     }
-      if (e >= 7000) {
+      if (e >= 2000) {
         hide9.style.visibility = 'visible';
     }
-      if (e >= 8000) {
+      if (e >= 5000) {
         hide10.style.visibility = 'visible';
     }
-        if (e >= 9000) {
+        if (e >= 10000) {
         hide11.style.visibility = 'visible';
     }
-        if (e >= 10000) {
+        if (e >= 50000) {
         hide12.style.visibility = 'visible';
     }
        
@@ -254,7 +254,7 @@ function buyupgrade1() {
     if (e >= cost2) {
         upg2 = upg2 + 1;
         e = e - cost2;
-        cost2 = cost2 + 10;
+        cost2 = cost2 + 5;
         clickval1 = clickval1 + 5;
         upgbuy2 = true;
         cst2.innerHTML = "COST: " + cost2;
@@ -276,7 +276,7 @@ function buyupgrade3() {
     if (e >= cost3) {
         upg3 = upg3 + 1;
         e = e - cost3;
-        cost3 = cost3 + 50;
+        cost3 = cost3 + 10;
         clickval3 = clickval3 + 10;
         upgbuy3 = true;
         cst3.innerHTML = "COST: " + cost3;
@@ -298,7 +298,7 @@ function upgradeclick() {
         e = e - cost4;
         upg4 = upg4 + 1;
         buttonvalue = buttonvalue + 2;
-        cost4 = cost4 + 5;
+        cost4 = cost4 + 2;
         updac();
         up4.innerHTML = "BASKETBALL SHOES: " + upg4;
         cst4.innerHTML = "COST: " + cost4;
@@ -311,7 +311,7 @@ function buyupgrade4() {
     if (e >= cost5) {
         e -= cost5;
         upg5 += 1;
-        cost5 += 100;
+        cost5 += 20;
         upgbuy4 = true;
         clickval4 += 20;
         hype.innerText = "PEE WEE LEAGUE CONTRACT: "+ upg5;
@@ -334,7 +334,7 @@ function buynuk() {
     if (e >= cost6) {
         e -= cost6;
         upg6 += 1;
-        cost6 += 250;
+        cost6 += 50;
         upgbuy6 = true;
         clickval6 += 50;
         nukc.innerText = "TRAINING EQUIPMENT: " + upg6;
@@ -355,9 +355,9 @@ function buyhou() {
     if (e >= cost7) {
         e -= cost7;
         upg7 += 1;
-        cost7 += 500;
+        cost7 += 100;
         upgbuy7 = true;
-        clickval7 += 60;
+        clickval7 += 100;
         house.innerText = "HOUSE LEAGUE CONTRACT: " + upg7;
         cst7.innerText = "COST: " + cost7;
         updac();
@@ -376,9 +376,9 @@ function buyaau() {
     if (e >= cost8) {
         e -= cost8;
         upg8 += 1;
-        cost8 += 500;
+        cost8 += 250;
         upgbuy8 = true;
-        clickval8 += 60;
+        clickval8 += 250;
         aau.innerText = "AAU CONTRACT: " + upg8;
         cst8.innerText = "COST: " + cost8;
         updac();
@@ -399,7 +399,7 @@ function buytrainer() {
         upg9 += 1;
         cost9 += 500;
         upgbuy9 = true;
-        clickval9 += 60;
+        clickval9 += 500;
         trainer.innerText = "PERSONAL TRAINER: " + upg9;
         cst9.innerText = "COST: " + cost9;
         updac();
@@ -418,9 +418,9 @@ function buyd1() {
     if (e >= cost10) {
         e -= cost10;
         upg10 += 1;
-        cost10 += 500;
+        cost10 += 1000;
         upgbuy10 = true;
-        clickval10 += 60;
+        clickval10 += 1000;
         d1.innerText = "D1 CONTRACT: " + upg10;
         cst10.innerText = "COST: " + cost10;
         updac();
@@ -439,9 +439,9 @@ function buymanager() {
     if (e >= cost11) {
         e -= cost11;
         upg11 += 1;
-        cost11 += 500;
+        cost11 += 2000;
         upgbuy11 = true;
-        clickval11 += 60;
+        clickval11 += 2000;
         manager.innerText = "PRO MANAGER: " + upg11;
         cst11.innerText = "COST: " + cost11;
         updac();
@@ -460,9 +460,9 @@ function buynba() {
     if (e >= cost12) {
         e -= cost12;
         upg12 += 1;
-        cost12 += 500;
+        cost12 += 5000;
         upgbuy12 = true;
-        clickval12 += 60;
+        clickval12 += 5000;
         nba.innerText = "NBA DRAFT: " + upg12;
         cst12.innerText = "COST: " + cost12;
         updac();
