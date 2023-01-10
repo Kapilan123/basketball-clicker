@@ -817,8 +817,8 @@ position: absolute;
     font-size: 60em;
     font-family: 'Comic Sans MS';
   position: absolute; 
-  left: 1580px;
-  top: 640;
+  left: 1585px;
+  top: 645;
     display: inline-block;
     vertical-align: middle;
       text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
@@ -849,12 +849,14 @@ position: absolute;
   }
 
   .progress-bar-fill {
-    height: 1%;
+    height: 0%;
     background: orange; 
     transition: width 0.5s;
     
     
   }
+
+
 
   .progress-bar-value {
     position: absolute;

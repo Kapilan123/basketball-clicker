@@ -243,6 +243,11 @@ function buyupgrade() {
         document.getElementById("upgrade").innerHTML = " BASKETBALLS: " + upg;
         document.getElementById("cost").innerHTML = "COST: " + cost;
         document.getElementById("proupg1").innerHTML = "9%" 
+        
+    
+       
+
+       
 
         updac();
         
@@ -260,6 +265,7 @@ function buyupgrade() {
     }
 }
 
+
 function buyupgrade1() {
     if (e >= cost2) {
         upg2 = upg2 + 1
@@ -271,6 +277,7 @@ function buyupgrade1() {
         cst2.innerHTML = "COST: " + cost2;
         up.innerHTML = "BASKETBALL NET: " + upg2;
               document.getElementById("proupg1").innerHTML = "27%" 
+        
         updac();
         if (check === false) {
             if (upgbuy2 === true) {
@@ -377,6 +384,8 @@ function buyhou() {
         house.innerText = "HOUSE LEAGUE CONTRACT: " + upg7;
         cst7.innerText = "COST: " + cost7;
         document.getElementById("proupg1").innerHTML = "50%" 
+
+      
         updac();
         if (check7 === false) {
             if (upgbuy7 === true) {
