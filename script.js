@@ -37,7 +37,6 @@ var cost10 = 5000;
 var cost11 = 10000;
 var cost12 = 50000;
 var proupg1 = 0;
-var proupg2 = 0;
 
 
 
@@ -57,7 +56,7 @@ var hype = document.getElementById("hype");
 var cst5 = document.getElementById("cost5");
 /*------------------------------------------------*/
 var hide4 = document.getElementById("hide4");
-var nukc = document.getElementById("nukee");
+var nukee = document.getElementById("nukee");
 var cst6 = document.getElementById("cost6");
 
 var cst7 = document.getElementById("cost7");
@@ -243,6 +242,7 @@ function buyupgrade() {
         document.getElementById("upgrade").innerHTML = " BASKETBALLS: " + upg;
         document.getElementById("cost").innerHTML = "COST: " + cost;
         document.getElementById("proupg1").innerHTML = "9%" 
+        proupg1.style.cssText = "font-size: 90px;";
         
     
        
@@ -304,7 +304,7 @@ function buyupgrade3() {
         updac();
         if (check3 === false) {
             if (upgbuy3 === true) {
-                setInterval(click3, 9500000);
+                setInterval(click3, 95000000);
                 check3 = true;
             }
         }
@@ -341,7 +341,7 @@ function buyupgrade4() {
         updac();
         if (check4 === false) {
             if (upgbuy4 === true) {
-                setInterval(click4, 9500000);
+                setInterval(click4, 95000000);
                 check4 = true;
             }
         }
@@ -352,27 +352,28 @@ function buyupgrade4() {
     }
 }
 
-function buynuk() {
+function buynukee() {
     if (e >= cost6) {
         e -= cost6;
         upg6 += 1;
         cost6 += 50;
         upgbuy6 = true;
         clickval6 += 50;
-        nukc.innerText = "TRAINING EQUIPMENT: " + upg6;
+        nukee.innerText = "TRAINING EQUIPMENT: "+ upg6;
         cst6.innerText = "COST: " + cost6;
-        document.getElementById("proupg1").innerHTML = "54%" 
+       document.getElementById("proupg1").innerHTML = "52%" 
         updac();
         if (check6 === false) {
             if (upgbuy6 === true) {
-                setInterval(click6, 950000);
+                setInterval(click6, 9500000);
                 check6 = true;
             }
         }
     } else {
-        alert(mtl + "\"TRAINING EQUIPMENT \"!")
+        alert(mtl + "\"TRAINING EQUIPMENT\"!");
     }
 }
+
 
 function buyhou() {
     if (e >= cost7) {
@@ -383,13 +384,13 @@ function buyhou() {
         clickval7 += 100;
         house.innerText = "HOUSE LEAGUE CONTRACT: " + upg7;
         cst7.innerText = "COST: " + cost7;
-        document.getElementById("proupg1").innerHTML = "50%" 
+        document.getElementById("proupg1").innerHTML = "60%" 
 
       
         updac();
         if (check7 === false) {
             if (upgbuy7 === true) {
-                setInterval(click7, 950000);
+                setInterval(click7, 9500000);
                 check7 = true;
             }
         }
@@ -411,7 +412,7 @@ function buyaau() {
         updac();
         if (check8 === false) {
             if (upgbuy8 === true) {
-                setInterval(click8, 95000);
+                setInterval(click8, 950000);
                 check8 = true;
             }
         }
@@ -433,7 +434,7 @@ function buytrainer() {
         updac();
         if (check9 === false) {
             if (upgbuy9 === true) {
-                setInterval(click9, 95000);
+                setInterval(click9, 950000);
                 check9 = true;
             }
         }
@@ -455,7 +456,7 @@ function buyd1() {
         updac();
         if (check10 === false) {
             if (upgbuy10 === true) {
-                setInterval(click10, 9500);
+                setInterval(click10, 95000);
                 check10 = true;
             }
         }
@@ -477,7 +478,7 @@ function buymanager() {
         updac();
         if (check11 === false) {
             if (upgbuy11 === true) {
-                setInterval(click11, 9500);
+                setInterval(click11, 95000);
                 check11 = true;
             }
         }
