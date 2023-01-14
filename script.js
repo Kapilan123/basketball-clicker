@@ -509,4 +509,244 @@ function buynba() {
 }
 
 
+myGoldBasketballSpawn();
+document.getElementById("gold1").height = 0;
+document.getElementById("gold2").height = 0;
+document.getElementById("gold3").height = 0;
+document.getElementById("gold4").height = 0;
+document.getElementById("gold5").height = 0;
+document.getElementById("gold6").height = 0;
+document.getElementById("gold1").width = 0;
+document.getElementById("gold2").width  = 0;
+document.getElementById("gold3").width  = 0;
+document.getElementById("gold4").width  = 0;
+document.getElementById("gold5").width  = 0;
+document.getElementById("gold6").width  = 0;
+
+
+function myGoldBasketballSpawn(){
+
+if (document.getElementById("gold1").height == 0 && document.getElementById("gold2").height == 0 && document.getElementById("gold3").height == 0 && document.getElementById("gold4").height == 0 && document.getElementById("gold5").height == 0 && document.getElementById("gold6").height == 0)  {
+  cookiegold = Math.floor(Math.random() * 6);
+    document.getElementById("gold1").style.transition = "all 0.5s";
+  document.getElementById("gold2").style.transition = "all 0.5s";
+  document.getElementById("gold3").style.transition = "all 0.5s";
+  document.getElementById("gold4").style.transition = "all 0.5s";
+  document.getElementById("gold5").style.transition = "all 0.5s";
+  document.getElementById("gold6").style.transition = "all 0.5s";
+  if (basketballgold==0){
+    document.getElementById("gold1").height = 70;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 70;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==1){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 70;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 70;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+   }
+  if (basketballgold==2){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 70;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 70;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==3){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 70;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 70;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==4){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 70;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 70;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==5){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 70;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 70;
+  }
+}
+  timegold = Math.floor(Math.random() * 61) + 60
+  setTimeout("myGoldBasketballSpawn()",timegold*1000);
+  
+}
+
+
+document.getElementById("gold1").onclick = function() { myGoldBasketball() };
+document.getElementById("gold2").onclick = function() { myGoldBasketball() };
+document.getElementById("gold3").onclick = function() { myGoldBasketball() };
+document.getElementById("gold4").onclick = function() { myGoldBasketball() };
+document.getElementById("gold5").onclick = function() { myGoldBasketball() };
+document.getElementById("gold6").onclick = function() { myGoldBasketball() };
+
+function myGoldBasketball(){
+    document.getElementById("gold1").style.transition = "all 0.5s";
+  document.getElementById("gold2").style.transition = "all 0.5s";
+  document.getElementById("gold3").style.transition = "all 0.5s";
+  document.getElementById("gold4").style.transition = "all 0.5s";
+  document.getElementById("gold5").style.transition = "all 0.5s";
+  document.getElementById("gold6").style.transition = "all 0.5s";
+  document.getElementById("gold1").height = 0;
+  document.getElementById("gold2").height = 0;
+  document.getElementById("gold3").height = 0;
+  document.getElementById("gold4").height = 0;
+  document.getElementById("gold5").height = 0;
+  document.getElementById("gold6").height = 0;
+  document.getElementById("gold1").width = 0;
+  document.getElementById("gold2").width  = 0;        
+  document.getElementById("gold3").width  = 0;
+  document.getElementById("gold4").width  = 0;
+  document.getElementById("gold5").width  = 0;
+  document.getElementById("gold6").width  = 0;
+
+  var gold = document.getElementById("gold");
+  gold.play();
+
+}
+
+
+    cookiegold = Math.floor(Math.random() * 6);
+  if (basketballgold==0){
+    document.getElementById("gold1").height = 70;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 70;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold ==1){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 70;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 70;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+   }
+  if (basketballgold==2){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 70;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 70;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==3){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 70;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 70;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==4){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 70;
+    document.getElementById("gold6").height = 0;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 70;
+    document.getElementById("gold6").width  = 0;
+  }
+  if (basketballgold==5){
+    document.getElementById("gold1").height = 0;
+    document.getElementById("gold2").height = 0;
+    document.getElementById("gold3").height = 0;
+    document.getElementById("gold4").height = 0;
+    document.getElementById("gold5").height = 0;
+    document.getElementById("gold6").height = 70;
+    document.getElementById("gold1").width = 0;
+    document.getElementById("gold2").width  = 0;
+    document.getElementById("gold3").width  = 0;
+    document.getElementById("gold4").width  = 0;
+    document.getElementById("gold5").width  = 0;
+    document.getElementById("gold6").width  = 70;
+  }
+
+
+
+
+
+
 
