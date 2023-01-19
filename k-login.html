@@ -1,59 +1,171 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>LOGIN/SIGNUP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <body>
+  <div class="container">
+    <h1> <span class="auto-type"></span></h1>
 
-    <button onclick="LoginWithReplit()" id="login">CLICK TO LOGIN</button>
+  </div>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-<style>
+  <script>
+      var types = new Typed(".auto-type", {
+        strings: ["ENTER USERNAME AND PASSWORD FOR ACCOUNT "],
+        typeSpeed: 50,
+        backSpeed: 150,
+        loop: false 
+
+        
+      })
+
+  
+  </script>
+
+  
+  <style>
+    {
+  box-sizing: border-box;
+}
 
 body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  bottom: 0;
-  right: 0;
-  background: #000522;
-  overflow: hidden;
+  background-color: grey;
+  color: white;
+  
+}
+    
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
 }
   
-#login{
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, tr, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+    
+    body {
+      font-size: 24px;
+  font-family: 'Courier New';
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+
+<body>
+
+<p id="start"> <a href="j-screen.html">PLAY</a> </p>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script src="signup.js">
+</script>
+  
+  <br>
+  <div id="signup" style="width:300px; margin:0 auto;">
+    <form>
+      Username: <input id="nameUser" type="text" name="user"  style="color: black;" ><br> 
+      <br>
+      Password: <input id="passWord" type="text" name="pass" style="color: black;"><br>
+      <br>
+      <input onclick="signUp()" style="width:300px; margin:0 auto;" type="submit" name="save" value="Click Sign Up/Log In">
+    </form>
+  </div>
+  
+</body>
+
+<style>
+        a{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 930px;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #D1D1CD;
-  font-size: 24px;
+  color: white;
+  font-size: 68px;
+  font-family: Courier New;
   border: 2px solid #cccccc;
   border-radius: 6px;
-  background: #000522;
+  background: grey;
   padding: 8px 16px;
   text-shadow: none;
   box-shadow: none;
   transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
-}
+ }
 
-#login:hover{
-  cursor: pointer;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  text-shadow: 0 0 5px #C8C8C8;
-}
 
-#login:active{
+.container {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+    color: white;
+  font-size: 25px;
+  font-family: Courier New;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background: grey;
+  padding: 1px 16px;
+  text-shadow: none;
   box-shadow: none;
-}
-
-#content{
-  visibility: hidden;
-}
-   
-
-    </style>
+  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
+}  
+  </style>
 
 
-
+  
 <script>
 
   let savedUser;
@@ -69,13 +181,5 @@ body {
 
   
 </script>
-
-
-  
-  </body>
-
-
-
-  
 
 </html>

@@ -33,16 +33,16 @@
 
         a{
   position: absolute;
-  left: 1035px;
-  top: 830px;
+  left: 50%;
+  top: 920px;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #D1D1CD;
-  font-size: 48px;
-            font-family: 'Arial';
+  color: orange;
+  font-size: 68px;
+  font-family: 'Courier New';
   border: 2px solid #cccccc;
   border-radius: 6px;
-  background: #000522;
+  background: black;
   padding: 8px 16px;
   text-shadow: none;
   box-shadow: none;
@@ -55,13 +55,14 @@ body {
   margin: 0;
   bottom: 0;
   right: 0;
-  background: #000522;
+  background: black;
   overflow: hidden;
 }
 
        h9{
-    font-family: 'Comic Sans MS';
+    font-family: 'Comic Sans Ms';
     position: absolute;
+           color: orange;
     font-size: 30px;
     left: 16px;
     top: 15px;
@@ -83,11 +84,12 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #D1D1CD;
-  font-size: 24px;
+    color: orange;
+  font-size: 25px;
+  font-family: Courier New;
   border: 2px solid #cccccc;
   border-radius: 6px;
-  background: #000522;
+  background: black;
   padding: 8px 16px;
   text-shadow: none;
   box-shadow: none;
@@ -113,21 +115,6 @@ body {
 
 
 
-<script>
-
-  let savedUser;
-  socket.on('loggedIn', function(user){
-    document.getElementById('login').style.visibility = 'hidden';
-    document.getElementById('content').style.visibility = 'visible';
-    updateGame({"user": user, "notify": true});
-  });
-
-  socket.on('gameUpdate', function(updateObj){
-    updateGame(updateObj);
-  });
-
-  
-</script>
 
 
   

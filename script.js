@@ -40,7 +40,7 @@ var proupg1 = 0;
 
 
 
-var buttonvalue = 100000;
+var buttonvalue = 1000000;
 var hide = document.getElementById("hiddentest");
 var cst2 = document.getElementById("cost2");
 var proupg2 = document.getElementById("proupg2");
@@ -743,10 +743,3 @@ function myGoldBasketball(){
     document.getElementById("gold5").width  = 0;
     document.getElementById("gold6").width  = 70;
   }
-
-
-
-
-
-
-
