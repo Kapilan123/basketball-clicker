@@ -1,4 +1,16 @@
 
+// #Name: Kapilan Sivapatham
+// #Date: January 23rd, 2022
+// #Program Name: Basketball Clicker  
+// #Purpose: Original Basketball Clicker Game Made on HTML/JS/CSS For Culminating Project, BAsed Off 1 of My Fav Games, Cookie Clicker 
+
+
+// MAIN JS CODE COMPONENT  //
+
+
+
+// SETTING DEFAULT VALUES TO VARIABLES, THE COST/UPGRADE/VALUE OF THE CLICKS AND UPRAGES USED // 
+
 var e = 0;
 var upg = 0;
 var upg2 = 0;
@@ -24,6 +36,9 @@ var clickval10 = 0;
 var clickval11 = 0;
 var clickval12 = 0;
 var speed = 1010;
+
+// SETTING DEFAULT VALUES TO VARIABLES, THE COST  TO  UPGRADE UPGRADES  // 
+
 var cost = 5;
 var cost2 = 20;
 var cost3 = 50;
@@ -36,11 +51,19 @@ var cost9 = 2000;
 var cost10 = 5000;
 var cost11 = 10000;
 var cost12 = 50000;
+
+// SETTING DEFAULT OF THE PROGRESS BAR TO 0% // 
+
+
 var proupg1 = 0;
 
-
+// SETTING DEFAULT OF VALUE OF A CLICK // 
 
 var buttonvalue = 1000000;
+
+// PUTTING IDS ON THE ELEMENTS SO WE CAN CALL THE HIDDEN OR COST ELEMENTS DOWN THE CODE // 
+
+
 var hide = document.getElementById("hiddentest");
 var cst2 = document.getElementById("cost2");
 var proupg2 = document.getElementById("proupg2");
@@ -85,7 +108,7 @@ var nba = document.getElementById("nba");
 
 var nukc = document.getElementById("prog1");
 
-
+// ERROR CHECK, IF USER DOES NOT HAVE ENOUGH CLICKS, IF VARIABLES IS FALSE, DISPLAY MESSAGES // 
 
 var upgbuy2 = false;
 var check = false;
@@ -110,7 +133,12 @@ var upgbuy11 = false;
 var upgbuy12 = false;
 var upgbuy = false;
 var hiddenoof = false;
-var mtl = "CLICK MORE, You Do Not Have Enough BASKETBALLS To Buy: ";
+
+// DISPLAY THIS MESSAGE IF NOT ENOUGH CLICKS  // 
+
+
+var mtl = "CLICK MORE, You Do Not Have Enough BASKETBALL POINTS To Buy: ";
+
 //if (e >= 10) {
     //if (hide.style.visibility === 'visible') {
      //   hide.style.visibility = 'hidden';
@@ -131,6 +159,8 @@ function codeinput() {
         updac();
     }
 }
+// HIDING THE ELEMENTS ON THE SCREEN UNTIL CALLED LATER ON // 
+
 
 hide2.style.visibility = 'hidden';
 hide3.style.visibility = 'hidden';
@@ -141,6 +171,8 @@ hide9.style.visibility = 'hidden';
 hide10.style.visibility = 'hidden';
 hide11.style.visibility = 'hidden';
 hide12.style.visibility = 'hidden';
+
+// FUCNTION TO ADD THE CLICK VALUES FOR EACH UPGRADE AND AUTO UPDATE// 
 
 function click() {
     e = e + clickval1;
@@ -188,6 +220,7 @@ function click12() {
 }
 hide.style.visibility = 'hidden';
 
+// UNHIDE HIDDEN ELEMNTS FUNCTION IF USER REACHS SPECFIC AMOUNT OF CLICKS // 
 
 function myfunction() {
     e = e + buttonvalue;
@@ -227,10 +260,17 @@ function myfunction() {
        
     
 }
+// THE CLICK TRACKER, DISPLAYS AMOUNT OF CLICKS, CALLS INNER HTML // 
 
 function updac() {
     document.getElementById("var").innerHTML = "clicks: " + e;
 }
+
+// MAIN FUNCTIONS BELOW, THE BUTTON UPGRADES FUNCTIONS. THE CORE OF EVERY FINCTION IS THE SAME, ADDS UPGRADE COST AND INCREASES IT, ADDS THE VALUE AND DOES THE UPGRADE, UPDATE TEH HTML COMPONENT USERS WILL SEE, UPDATE THE STIFF PROGRESS BAR, STYLE THE PROGRESS BAR, CHANGE AUTO CLICK VLAUE, AND ERROR CHECK TO DISPLAY A ERROR MESSGA ETHAT USUERS DO NOT HAVE ENOUGH CLICKS TO BUY IT //
+
+
+
+// UPGRADE BUTTON FUNCTION // 
 
 function buyupgrade() {
     if (e >= cost) {
@@ -239,32 +279,29 @@ function buyupgrade() {
         cost = cost + 1;
         upgbuy = true;
         clickval = clickval + 1;
-        document.getElementById("upgrade").innerHTML = " BASKETBALLS: " + upg;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE // 
+        document.getElementById("upgrade").innerHTML = " BASKETBALLS: " + upg; 
         document.getElementById("cost").innerHTML = "COST: " + cost;
         document.getElementById("proupg1").innerHTML = "9%" 
         proupg1.style.cssText = "font-size: 90px;";
         
-    
-       
-
-       
-
         updac();
         
         if (check1 === false) {
             if (upgbuy === true) {
                 setInterval(click1, 9500000);
                 check1 = true;
-                
+                // UPDATES AUTO CLICKER SPEED, GREATER TEH NUMBER, SLOWER THE AUTO CPS // 
+
             }
         }
             
-        
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE // 
         alert(mtl+"\"BASKETBALLS\"!");
     }
 }
 
+// UPGRADE BUTTON FUNCTION // 
 
 function buyupgrade1() {
     if (e >= cost2) {
@@ -273,6 +310,7 @@ function buyupgrade1() {
         e = e - cost2;
         cost2 = cost2 + 5;
         clickval1 = clickval1 + 5;
+        // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE // 
         upgbuy2 = true;
         cst2.innerHTML = "COST: " + cost2;
         up.innerHTML = "BASKETBALL NET: " + upg2;
@@ -281,15 +319,17 @@ function buyupgrade1() {
         updac();
         if (check === false) {
             if (upgbuy2 === true) {
-                
                 setInterval(click, 9500000);
                 check = true;
+            // UPDATES AUTO CLICKER SPEED, GREATER TEH NUMBER, SLOWER THE AUTO CPS // 
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE // 
         alert(mtl+"\"BASKETBALL NET\"!");
     }
 }
+
+// UPGRADE BUTTON FUNCTION // 
 
 function buyupgrade3() {
     if (e >= cost3) {
@@ -297,6 +337,7 @@ function buyupgrade3() {
         e = e - cost3;
         cost3 = cost3 + 10;
         clickval3 = clickval3 + 10;
+       // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE // 
         upgbuy3 = true;
         cst3.innerHTML = "COST: " + cost3;
         omgc.innerHTML = "WATER BOTTLE: " + upg3;
@@ -306,12 +347,15 @@ function buyupgrade3() {
             if (upgbuy3 === true) {
                 setInterval(click3, 95000000);
                 check3 = true;
+       // UPDATES AUTO CLICKER SPEED, GREATER TEH NUMBER, SLOWER THE AUTO CPS // 
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE // 
         alert(mtl + "\"WATER BOTTLE\"!")
     }
 }
+
+// UPGRADE BUTTON FUNCTION // 
 
 function upgradeclick() {
     if (e >= cost4) {
@@ -319,14 +363,17 @@ function upgradeclick() {
         upg4 = upg4 + 1;
         buttonvalue = buttonvalue + 2;
         cost4 = cost4 + 2;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE // 
         updac();
         up4.innerHTML = "BASKETBALL SHOES: " + upg4;
         cst4.innerHTML = "COST: " + cost4;
         document.getElementById("proupg1").innerHTML = "18%" 
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE // 
         alert(mtl + "\"BASKETBALL SHOES\"!");
     }
 }
+
+// UPGRADE BUTTON FUNCTION // 
 
 function buyupgrade4() {
     if (e >= cost5) {
@@ -335,6 +382,7 @@ function buyupgrade4() {
         cost5 += 20;
         upgbuy4 = true;
         clickval4 += 20;
+     // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         hype.innerText = "PEE WEE LEAGUE CONTRACT: "+ upg5;
         cst5.innerText = "COST: " + cost5;
        document.getElementById("proupg1").innerHTML = "45%" 
@@ -342,15 +390,17 @@ function buyupgrade4() {
         if (check4 === false) {
             if (upgbuy4 === true) {
                 setInterval(click4, 95000000);
+               // UPDATES AUTO CLICKER SPEED, GREATER TEH NUMBER, SLOWER THE AUTO CPS // 
                 check4 = true;
             }
-        }
+        }   
         
-        
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE // 
         alert(mtl + "\"PEE WEE LEAGUE CONTRACT\"!");
     }
 }
+
+// UPGRADE BUTTON FUNCTION //
 
 function buynukee() {
     if (e >= cost6) {
@@ -359,6 +409,7 @@ function buynukee() {
         cost6 += 50;
         upgbuy6 = true;
         clickval6 += 50;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         nukee.innerText = "TRAINING EQUIPMENT: "+ upg6;
         cst6.innerText = "COST: " + cost6;
        document.getElementById("proupg1").innerHTML = "52%" 
@@ -367,13 +418,15 @@ function buynukee() {
             if (upgbuy6 === true) {
                 setInterval(click6, 9500000);
                 check6 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER TEH NUMBER, SLOWER THE AUTO CPS //
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
         alert(mtl + "\"TRAINING EQUIPMENT\"!");
     }
 }
 
+// UPGRADE BUTTON FUNCTION //
 
 function buyhou() {
     if (e >= cost7) {
@@ -382,6 +435,7 @@ function buyhou() {
         cost7 += 100;
         upgbuy7 = true;
         clickval7 += 100;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         house.innerText = "HOUSE LEAGUE CONTRACT: " + upg7;
         cst7.innerText = "COST: " + cost7;
         document.getElementById("proupg1").innerHTML = "60%" 
@@ -392,12 +446,15 @@ function buyhou() {
             if (upgbuy7 === true) {
                 setInterval(click7, 9500000);
                 check7 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER THE NUMBER, SLOWER THE AUTO CPS //
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
         alert(mtl + "\"HOUSE LEAGUE CONTRACT\"!")
     }
 }
+
+// UPGRADE BUTTON FUNCTION //
 
 function buyaau() {
     if (e >= cost8) {
@@ -406,6 +463,7 @@ function buyaau() {
         cost8 += 250;
         upgbuy8 = true;
         clickval8 += 250;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         aau.innerText = "AAU CONTRACT: " + upg8;
         cst8.innerText = "COST: " + cost8;
         document.getElementById("proupg1").innerHTML = "72%" 
@@ -414,12 +472,15 @@ function buyaau() {
             if (upgbuy8 === true) {
                 setInterval(click8, 950000);
                 check8 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER THE NUMBER, SLOWER THE AUTO CPS //
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
         alert(mtl + "\"AAU CONTRACT\"!")
     }
 }
+
+// UPGRADE BUTTON FUNCTION //
 
 function buytrainer() {
     if (e >= cost9) {
@@ -428,6 +489,7 @@ function buytrainer() {
         cost9 += 500;
         upgbuy9 = true;
         clickval9 += 500;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         trainer.innerText = "PERSONAL TRAINER: " + upg9;
         cst9.innerText = "COST: " + cost9;
         document.getElementById("proupg1").innerHTML = "81%" 
@@ -436,12 +498,15 @@ function buytrainer() {
             if (upgbuy9 === true) {
                 setInterval(click9, 950000);
                 check9 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER THE NUMBER, SLOWER THE AUTO CPS //
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
         alert(mtl + "\"PERSONAL TRAINER\"!")
     }
 }
+
+// UPGRADE BUTTON FUNCTION //
 
 function buyd1() {
     if (e >= cost10) {
@@ -450,6 +515,7 @@ function buyd1() {
         cost10 += 1000;
         upgbuy10 = true;
         clickval10 += 1000;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         d1.innerText = "D1 CONTRACT: " + upg10;
         cst10.innerText = "COST: " + cost10;
         document.getElementById("proupg1").innerHTML = "90%" 
@@ -458,12 +524,15 @@ function buyd1() {
             if (upgbuy10 === true) {
                 setInterval(click10, 95000);
                 check10 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER THE NUMBER, SLOWER THE AUTO CPS //
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
         alert(mtl + "\"D1 CONTRACT \"!")
     }
 }
+
+// UPGRADE BUTTON FUNCTION //
 
 function buymanager() {
     if (e >= cost11) {
@@ -472,6 +541,7 @@ function buymanager() {
         cost11 += 2000;
         upgbuy11 = true;
         clickval11 += 2000;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         manager.innerText = "PRO MANAGER: " + upg11;
         cst11.innerText = "COST: " + cost11;
         document.getElementById("proupg1").innerHTML = "98%" 
@@ -480,12 +550,15 @@ function buymanager() {
             if (upgbuy11 === true) {
                 setInterval(click11, 95000);
                 check11 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER THE NUMBER, SLOWER THE AUTO CPS //
             }
         }
-    } else {
+    } else { // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
         alert(mtl + "\"PRO MANAGER\"!")
     }
 }
+
+// UPGRADE BUTTON FUNCTION //
 
 function buynba() {
     if (e >= cost12) {
@@ -494,6 +567,7 @@ function buynba() {
         cost12 += 5000;
         upgbuy12 = true;
         clickval12 += 5000;
+      // CALLING THE ELEMNTS TO CHANGE THE HTML COMPONENT OF THE UPGRADE //
         nba.innerText = "NBA DRAFT: " + upg12;
         cst12.innerText = "COST: " + cost12;
         updac();
@@ -501,13 +575,16 @@ function buynba() {
             if (upgbuy12 === true) {
                 setInterval(click12, 950);
                 check12 = true;
+              // UPDATES AUTO CLICKER SPEED, GREATER THE NUMBER, SLOWER THE AUTO CPS //
             }
         }
     } else {
         alert(mtl + "\"NBA DRAFT \"!")
+      // ALERTS MESSGAE TO TELL USERS THEY NEED MORE //
     }
 }
 
+// SPAWNING THE GODLEN BASKETBALLS, THE RANDOM COMPONENT  //
 
 myGoldBasketballSpawn();
 document.getElementById("gold1").height = 0;
@@ -523,6 +600,7 @@ document.getElementById("gold4").width  = 0;
 document.getElementById("gold5").width  = 0;
 document.getElementById("gold6").width  = 0;
 
+// SPAWNING THE GODLEN BASKETBALLS, AREA/STYLE OF THE IMAGE, TIMING   //
 
 function myGoldBasketballSpawn(){
 
@@ -619,10 +697,14 @@ if (document.getElementById("gold1").height == 0 && document.getElementById("gol
     document.getElementById("gold6").width  = 70;
   }
 }
+  // MAKING THE GOLDEN BASKETBALLS RANDOM EACH TIME, DIFFERENT MATH   //
+
   timegold = Math.floor(Math.random() * 61) + 60
   setTimeout("myGoldBasketballSpawn()",timegold*1000);
   
 }
+
+// CLICKING FUNCTION THE GOLDEN BASKETBALLS AND THE CLICKS IT WILL AD, THE RANDOM COMPONENT  //
 
 
 document.getElementById("gold1").onclick = function() { myGoldBasketball() };

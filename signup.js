@@ -1,3 +1,6 @@
+// SIGNUP JS CODE, DATA PRESICISTENCE KIND OF #1  //
+
+
 function setCookie(name, value, days) {
   // Set the expiration date of the cookie
   let expires = "";

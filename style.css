@@ -1,7 +1,11 @@
+ /* THIS IS THE STYLE SCREEN, WHERE ALL TEH HTML IS FORMATTED AND STYLED */
+
+ /* SET BACKGROUND FOR THE GAME */
 html {
     background-image: url("https://wallpaperset.com/w/full/a/7/e/99262.jpg");
 }
 
+ /* SECRET CODEBOX*/
 .codebox {
     position: absolute;
     right: 10px;
@@ -11,7 +15,7 @@ html {
     border: 1px;
     background-color: #0000000;
 }
-
+ /* GAME TITLE */
 .name {
  font-size: 70;
  text-align: center;
@@ -26,6 +30,7 @@ html {
  top: 1px;
 }
 
+ /* PURCHASE TITLE */
 .powerups {
     position: absolute;
     left: 100px;
@@ -41,6 +46,7 @@ html {
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
+ /* CLICK AMOUNT  */
 #var {
     position: absolute;
     left: 935px;
@@ -67,7 +73,7 @@ html {
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
-
+ /* GME VERSION */
 .version {
     font-family: 'Comic Sans MS';
     position: absolute;
@@ -82,6 +88,8 @@ html {
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
+
+ /* PROGRESS BAR TITLE  */
 
    h10 {
     font-family: 'Comic Sans MS';
@@ -98,6 +106,8 @@ html {
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
+ /* RETURN SCREEN BUTTON */
+
 #exitgamebtn {
   text-align: center;
   background: blue;
@@ -111,6 +121,7 @@ html {
     left: 1600px;
     top: 980px;
 }
+ /* BASKETBALL CLICK BUTTON */
 
 #basketball-click{
 position: absolute;
@@ -122,6 +133,7 @@ cursor: pointer;
 border-radius: 192px;
 }
 
+ /* default buttons  */
 .buybox {
     height: 80px;
     width: 80px;
@@ -138,7 +150,7 @@ border-radius: 192px;
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
-
+ /* upgrade button */
 #buybox-inline1{
 height: 80px;
 width: 80px;  
@@ -182,6 +194,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
+ /* upgrade button */
 
 #buybox-inline2{
 height: 80px;
@@ -226,13 +239,15 @@ text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
+ /* upgrade button */
+
 #buybox-inline3{
  height: 80px;
 width: 80px;  
 position: absolute; 
-  left: 10px;
-  top: 450;
-  cursor: pointer;
+left: 10px;
+top: 450;
+cursor: pointer;
 }
 
 .inline3 {
@@ -268,6 +283,8 @@ text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
+
+ /* upgrade button */
 
 #buybox-inline4{
 height: 80px;
@@ -311,6 +328,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
+ /* upgrade button */ /* upgrade button */
 
 #buybox-inline5{
 height: 80px;
@@ -355,26 +373,27 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
+ /* upgrade button */
 
 #buybox-inline6{
- height: 80px;
+height: 80px;
 width: 80px;  
 position: absolute; 
-  left: 10px;
-  top: 840;
-  cursor: pointer;
+left: 10px;
+top: 840;
+cursor: pointer;
 }
 
 .inline6 {
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 105px;
-  top: 860px;
+    position: absolute; 
+    left: 105px;
+    top: 860px;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -386,12 +405,12 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 10px;
-  top: 920;
+    position: absolute; 
+    left: 10px;
+    top: 920;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -400,10 +419,12 @@ position: absolute;
 
 }
 
+ /* upgrade button */
+
 #buybox-inline7{
  height: 80px;
-width: 80px;  
-position: absolute; 
+  width: 80px;  
+  position: absolute; 
   left: 10px;
   top: 970;
   cursor: pointer;
@@ -413,12 +434,12 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 105px;
-  top: 990px;
+    position: absolute; 
+    left: 105px;
+    top: 990px;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -430,12 +451,12 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 10px;
-  top: 1050;
+    position: absolute; 
+    left: 10px;
+    top: 1050;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -443,26 +464,27 @@ position: absolute;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
+ /* upgrade button */
 
 #buybox-inline8{
- height: 80px;
+height: 80px;
 width: 80px;  
 position: absolute; 
-  left: 610px;
-  top: 840;
-  cursor: pointer;
+left: 610px;
+top: 840;
+cursor: pointer;
 }
 
 .inline8 {
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 700px;
-  top: 860px;
+    position: absolute; 
+    left: 700px;
+    top: 860px;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -474,12 +496,12 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 620px;
-  top: 920;
+    position: absolute; 
+    left: 620px;
+    top: 920;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -488,10 +510,12 @@ position: absolute;
 
 }
 
+ /* upgrade button */
+
 #buybox-inline9{
- height: 80px;
-width: 80px;  
-position: absolute; 
+  height: 80px;
+  width: 80px;  
+  position: absolute; 
   left: 610px;
   top: 970;
   cursor: pointer;
@@ -501,12 +525,12 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 700px;
-  top: 990;
+    position: absolute; 
+    left: 700px;
+    top: 990;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -518,12 +542,12 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 620px;
-  top: 1060;
+    position: absolute; 
+    left: 620px;
+    top: 1060;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -532,25 +556,26 @@ position: absolute;
 
 }
 
+ /* upgrade button */
 #buybox-inline10{
  height: 80px;
-width: 80px;  
-position: absolute; 
-  left: 1080px;
-  top: 840;
-  cursor: pointer;
+ width: 80px;  
+ position: absolute; 
+ left: 1080px;
+ top: 840;
+ cursor: pointer;
 }
 
 .inline10 {
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 1170px;
-  top: 860px;
+    position: absolute; 
+    left: 1170px;
+    top: 860px;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -562,9 +587,9 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 1080px;
-  top: 920;
+    position: absolute; 
+    left: 1080px;
+    top: 920;
     display: inline-block;
     vertical-align: middle;
       text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
@@ -576,26 +601,27 @@ position: absolute;
 
 }
 
-
+ /* upgrade button */
 #buybox-inline11{
  height: 80px;
-width: 80px;  
-position: absolute; 
+ width: 80px;  
+ position: absolute; 
   left: 1080px;
   top: 970;
   cursor: pointer;
 }
 
+
 .inline11 {
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 1170px;
-  top: 990px;
+    position: absolute; 
+    left: 1170px;
+    top: 990px;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -603,16 +629,17 @@ position: absolute;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
+
 .c-inline11 {
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 1080px;
-  top: 1060;
+    position: absolute; 
+    left: 1080px;
+    top: 1060;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -620,30 +647,29 @@ position: absolute;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
+ /* upgrade button */
 
 #buybox-inline12{
    color: orange;
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/2048px-Solid_blue.svg.png");
-  height: 80px;
-width: 80px;  
-position: absolute; 
-  left: 1580px;
-  top: 50;
-  cursor: pointer;
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/2048px-Solid_blue.svg.png");
+   height: 80px;
+   width: 80px;  
+   position: absolute; 
+   left: 1580px;
+   top: 50;
+   cursor: pointer;
 }
-
-        
 
 .inline12 {
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 1670px;
-  top: 80px;
+    position: absolute; 
+    left: 1670px;
+    top: 80px;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -655,35 +681,11 @@ position: absolute;
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 1580px;
-  top: 130;
+    position: absolute; 
+    left: 1580px;
+    top: 130;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1);
-
-}
-.inline {
-    color: rgb(248, 242, 242);
-    font-size: 30px;
-    font-family: 'Comic Sans MS';
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
-
-
-.bybox incline {
-  position: absolute;
-  left: 800;
-  top: 500;
-    color: orange(248, 242, 242);
     text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
@@ -693,18 +695,40 @@ position: absolute;
 
 }
 
+.inline {
+    color: rgb(248, 242, 242);
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.bybox incline {
+  position: absolute;
+  left: 800;
+  top: 500;
+  color: orange(248, 242, 242);
+  text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 10px hsla(278, 100%, 50%, 0.5),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1),
+                 0 0 5px hsla(120, 100%, 25%, 1);
+
+}
+
+ /* PROGRESS BAR NUMBER  */
 
 .proupg1 {
-    color: rgb(248, 242, 242);
-    font-size: 600em;
-    font-family: 'Comic Sans MS';
+  color: rgb(248, 242, 242);
+  font-size: 600em;
+  font-family: 'Comic Sans MS';
   position: absolute; 
   left: 1695px;
   top: 575;
-    display: inline-block;
-    vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -714,6 +738,8 @@ position: absolute;
 
 }
 
+ /* PROGRESS BAR */
+
   .progress-bar {
     position: relative;
     left: 1550px;
@@ -722,7 +748,7 @@ position: absolute;
     height: 400px;
     border: 5px solid orange;
     border-radius: 400px;
-        text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -735,11 +761,7 @@ position: absolute;
     height: 0%; 
     background: orange; 
     transition: width 0.5s;
-    
-    
   }
-
-
 
   .progress-bar-value {
     position: absolute;
@@ -748,14 +770,11 @@ position: absolute;
     font-size: 400px;
     width: 100%;
     height: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     cont-weight: bold;
-
-        text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
