@@ -3,35 +3,34 @@
 
 <html>
 
+    <!-- BASIC TITLES AND TEXT DISPLAYS   -->
+
   <body>
     <h9>v1.1.0.KAP.S</h9>
 
        <p id="start"> <a href="j-screen.html">PLAY</a> </p>
 
 
-  <div class="container">
-    <h1> <span class="auto-type"></span></h1>
-
+      <div class="container">
+        <h1> <span class="auto-type"></span></h1>
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-  <script>
+  <script> // MAKES WORDS TYPED OUT INSTEAD OF JUST SPIT OUT //
       var types = new Typed(".auto-type", {
         strings: ["100% Made By Kapilan Sivapatham "],
         typeSpeed: 100,
         backSpeed: 150,
         loop: false 
-
-        
       })
-
-  
   </script>
-
+    
+  <!-- DOING STYLE WITHIN CSS BECAUSE IT IS SHORT AND QUICK  -->
+    
 <style>
 
-        a{
+a{ /* PLAY BUTTON FORMAT*/
   position: absolute;
   left: 50%;
   top: 920px;
@@ -49,7 +48,7 @@
   transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
  }
 
-body {
+body { /* SCREEN BACKGROUND FORMAT*/
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -59,10 +58,10 @@ body {
   overflow: hidden;
 }
 
-       h9{
+  h9{ /* GAME VERSION FORMAT */
     font-family: 'Comic Sans Ms';
     position: absolute;
-           color: orange;
+    color: orange;
     font-size: 30px;
     left: 16px;
     top: 15px;
@@ -73,50 +72,41 @@ body {
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
-
-
-
     }
   
-.container{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.container{ /* CREDIT TEXT FORMAT */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: orange;
-  font-size: 25px;
-  font-family: Courier New;
-  border: 2px solid #cccccc;
-  border-radius: 6px;
-  background: black;
-  padding: 8px 16px;
-  text-shadow: none;
-  box-shadow: none;
-  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
+    font-size: 25px;
+    font-family: Courier New;
+    border: 2px solid #cccccc;
+    border-radius: 6px;
+    background: black;
+    padding: 8px 16px;
+    text-shadow: none;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
 }
 
-#login:hover{
+#login:hover{ /* HOVERING OVER THE MIDDLE */
   cursor: pointer;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   text-shadow: 0 0 5px #C8C8C8;
 }
 
-#login:active{
+#login:active{ /* IF THE TEXT IS CLICKED, DEAD   */
   box-shadow: none;
 }
 
-#content{
+#content{ /* THE ON CLICK, HIDE IT   */
   visibility: hidden;
 }
    
-
     </style>
-
-
-
-
-
   
   </body>
 

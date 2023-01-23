@@ -118,8 +118,8 @@ html {
   border-radius: 20px;
   padding: 15px;
   position: absolute;
-    left: 1600px;
-    top: 980px;
+  left: 1600px;
+  top: 980px;
 }
  /* BASKETBALL CLICK BUTTON */
 
@@ -151,16 +151,17 @@ border-radius: 192px;
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
  /* upgrade button */
+
 #buybox-inline1{
-height: 80px;
-width: 80px;  
-position: absolute; 
-left: 10px;
-top: 190;
-cursor: pointer;
+  height: 80px;
+  width: 80px;  
+  position: absolute; 
+  left: 10px;
+  top: 190;
+  cursor: pointer;
 }
 
-.inline1 {
+.inline1 {  /* clicks upgrade button / text */
   color: rgb(248, 242, 242);
   font-size: 30px;
   font-family: 'Comic Sans MS';
@@ -177,7 +178,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
-.c-inline1 {
+.c-inline1 {  /* clicks upgrade button / text */
  color: rgb(248, 242, 242);
  font-size: 30px;
  font-family: 'Comic Sans MS';
@@ -196,7 +197,7 @@ cursor: pointer;
 }
  /* upgrade button */
 
-#buybox-inline2{
+#buybox-inline2{ 
 height: 80px;
 width: 80px;  
 position: absolute; 
@@ -205,16 +206,16 @@ top: 320;
 cursor: pointer;
 }
 
-.inline2 {
-color: rgb(248, 242, 242);
-font-size: 30px;
-font-family: 'Comic Sans MS';
-position: absolute; 
-left: 105px;
-top: 340;
-display: inline-block;
-vertical-align: middle;
-text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+.inline2 {   /* clicks upgrade button / text */
+  color: rgb(248, 242, 242);
+  font-size: 30px;
+  font-family: 'Comic Sans MS';
+  position: absolute; 
+  left: 105px;
+  top: 340;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -222,7 +223,7 @@ text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
-.c-inline2 {
+.c-inline2 {  /* clicks upgrade button / text */
 color: rgb(248, 242, 242);
 font-size: 30px;
 font-family: 'Comic Sans MS';
@@ -242,15 +243,15 @@ text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
  /* upgrade button */
 
 #buybox-inline3{
- height: 80px;
-width: 80px;  
-position: absolute; 
-left: 10px;
-top: 450;
-cursor: pointer;
+    height: 80px;
+    width: 80px;  
+    position: absolute; 
+    left: 10px;
+    top: 450;
+    cursor: pointer;
 }
 
-.inline3 {
+.inline3 {  /* clicks upgrade button / text */
 color: rgb(248, 242, 242);
 font-size: 30px;
 font-family: 'Comic Sans MS';
@@ -267,7 +268,7 @@ text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
-.c-inline3 {
+.c-inline3 {  /* clicks upgrade button / text */
 color: rgb(248, 242, 242);
 font-size: 30px;
 font-family: 'Comic Sans MS';
@@ -295,7 +296,7 @@ top: 580;
 cursor: pointer;
 }
 
-.inline4 {
+.inline4 { /* clicks upgrade button / text */
   color: rgb(248, 242, 242);
   font-size: 30px;
   font-family: 'Comic Sans MS';
@@ -312,7 +313,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 }
 
-.c-inline4 {
+.c-inline4 { /* clicks upgrade button / text */
   color: rgb(248, 242, 242);
   font-size: 30px;
   font-family: 'Comic Sans MS';
@@ -330,25 +331,25 @@ cursor: pointer;
 }
  /* upgrade button */ /* upgrade button */
 
-#buybox-inline5{
-height: 80px;
-width: 80px;  
-position: absolute; 
-left: 10px;
-top: 710;
-cursor: pointer;
+#buybox-inline5{ /* clicks upgrade button / text */
+  height: 80px;
+  width: 80px;  
+  position: absolute; 
+  left: 10px;
+  top: 710;
+  cursor: pointer;
 }
-
-.inline5 {
+ 
+.inline5 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 105px;
-  top: 730;
+    position: absolute; 
+    left: 105px;
+    top: 730;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -356,16 +357,16 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline5 {
+.c-inline5 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
-  position: absolute; 
-  left: 10px;
-  top: 790;
+    position: absolute; 
+    left: 10px;
+    top: 790;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -384,7 +385,7 @@ top: 840;
 cursor: pointer;
 }
 
-.inline6 {
+.inline6 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -401,7 +402,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline6 {
+.c-inline6 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -430,7 +431,7 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.inline7 {
+.inline7 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -447,7 +448,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline7 {
+.c-inline7 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -467,15 +468,15 @@ cursor: pointer;
  /* upgrade button */
 
 #buybox-inline8{
-height: 80px;
-width: 80px;  
-position: absolute; 
-left: 610px;
-top: 840;
-cursor: pointer;
+  height: 80px;
+  width: 80px;  
+  position: absolute; 
+  left: 610px;
+  top: 840;
+  cursor: pointer;
 }
 
-.inline8 {
+.inline8 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -492,7 +493,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline8 {
+.c-inline8 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -521,7 +522,7 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.inline9 {
+.inline9 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -538,7 +539,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline9 {
+.c-inline9 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -566,7 +567,7 @@ cursor: pointer;
  cursor: pointer;
 }
 
-.inline10 {
+.inline10 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -583,7 +584,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline10 {
+.c-inline10 { /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -592,7 +593,7 @@ cursor: pointer;
     top: 920;
     display: inline-block;
     vertical-align: middle;
-      text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 10px hsla(278, 100%, 50%, 0.5),
                  0 0 5px hsla(120, 100%, 25%, 1),
@@ -606,13 +607,13 @@ cursor: pointer;
  height: 80px;
  width: 80px;  
  position: absolute; 
-  left: 1080px;
-  top: 970;
-  cursor: pointer;
+ left: 1080px;
+ top: 970;
+ cursor: pointer;
 }
 
 
-.inline11 {
+.inline11 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -630,7 +631,7 @@ cursor: pointer;
 
 }
 
-.c-inline11 {
+.c-inline11 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -660,7 +661,7 @@ cursor: pointer;
    cursor: pointer;
 }
 
-.inline12 {
+.inline12 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -677,7 +678,7 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1);
 
 }
-.c-inline12 {
+.c-inline12 {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -695,7 +696,7 @@ cursor: pointer;
 
 }
 
-.inline {
+.inline {  /* clicks upgrade button / text */
     color: rgb(248, 242, 242);
     font-size: 30px;
     font-family: 'Comic Sans MS';
@@ -703,7 +704,7 @@ cursor: pointer;
     vertical-align: middle;
 }
 
-.bybox incline {
+.bybox incline {  /* clicks upgrade button / text */
   position: absolute;
   left: 800;
   top: 500;
@@ -734,8 +735,6 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
-
-
 }
 
  /* PROGRESS BAR */
@@ -754,16 +753,15 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
-    
   }
 
-  .progress-bar-fill {
+  .progress-bar-fill { /* progress bar inside fill  */
     height: 0%; 
     background: orange; 
     transition: width 0.5s;
   }
 
-  .progress-bar-value {
+  .progress-bar-value { /* progress bar number value  */
     position: absolute;
     color: white;
     font-weight: bold;
@@ -780,7 +778,4 @@ cursor: pointer;
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1),
                  0 0 5px hsla(120, 100%, 25%, 1);
-    
   }
-
-  

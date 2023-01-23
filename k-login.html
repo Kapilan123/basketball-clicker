@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <!-- BASIC TITLES AND TEXT DISPLAYS   -->
+
 <head>
   <title>LOGIN/SIGNUP</title>
   <meta charset="UTF-8">
@@ -32,7 +34,8 @@
   
   </script>
 
-  
+  <!-- DOING STYLE WITHIN CSS BECAUSE IT IS SHORT AND QUIXK  -->
+
   <style>
     {
   box-sizing: border-box;
@@ -77,16 +80,16 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
     
-    body {
-      font-size: 24px;
-  font-family: 'Courier New';
+  body {
+    font-size: 24px;
+    font-family: 'Courier New';
     }
 
-    .mySlides {
+.mySlides {
       display: none
     }
 
-    .center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -116,6 +119,8 @@ tr:nth-child(even) {
 
 <script src="signup.js">
 </script>
+
+    <!-- ID CLASS THE USERNAME AND PASSWORD AND STYLE    -->
   
   <br>
   <div id="signup" style="width:300px; margin:0 auto;">
@@ -131,26 +136,27 @@ tr:nth-child(even) {
 </body>
 
 <style>
-        a{
-  position: absolute;
-  left: 50%;
-  top: 990px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  font-size: 68px;
-  font-family: Courier New;
-  border: 2px solid #cccccc;
-  border-radius: 6px;
-  background: grey;
-  padding: 8px 16px;
-  text-shadow: none;
-  box-shadow: none;
-  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
+  
+  a{      /* PLAY BUTTON FORMAT  */
+    position: absolute;
+    left: 50%;
+    top: 990px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 68px;
+    font-family: Courier New;
+    border: 2px solid #cccccc;
+    border-radius: 6px;
+    background: grey;
+    padding: 8px 16px;
+    text-shadow: none;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
  }
 
 
-.container {
+.container {      /* MAIN TEXT SPIT OUT STYLE  */
   position: absolute;
   left: 50%;
   top: 40%;
@@ -167,11 +173,12 @@ tr:nth-child(even) {
   box-shadow: none;
   transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
 }  
+  
   </style>
 
-
-  
 <script>
+
+  // FUCNTION TO IDENTIFY IF RETURNING OR NEW USER, TEXT SPIT OUT ACCORDINGLY //
 
   let savedUser;
   socket.on('loggedIn', function(user){

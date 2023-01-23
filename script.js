@@ -59,7 +59,7 @@ var proupg1 = 0;
 
 // SETTING DEFAULT OF VALUE OF A CLICK // 
 
-var buttonvalue = 1000000;
+var buttonvalue = 1;
 
 // PUTTING IDS ON THE ELEMENTS SO WE CAN CALL THE HIDDEN OR COST ELEMENTS DOWN THE CODE // 
 
@@ -714,6 +714,8 @@ document.getElementById("gold4").onclick = function() { myGoldBasketball() };
 document.getElementById("gold5").onclick = function() { myGoldBasketball() };
 document.getElementById("gold6").onclick = function() { myGoldBasketball() };
 
+// SPAWNING THE GODLEN BASKETBALLS, AREA/STYLE OF THE IMAGE, TIMING   //
+
 function myGoldBasketball(){
     document.getElementById("gold1").style.transition = "all 0.5s";
   document.getElementById("gold2").style.transition = "all 0.5s";
@@ -739,6 +741,7 @@ function myGoldBasketball(){
 
 }
 
+  // MAKING THE GOLDEN BASKETBALLS RANDOM EACH TIME, DIFFERENT MATH   //
 
     cookiegold = Math.floor(Math.random() * 6);
   if (basketballgold==0){
