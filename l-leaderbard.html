@@ -1,172 +1,153 @@
-<!--THIS IS THE LEADERBOARD SCREEN, LETS USERS SEE THE SCORE LEADERBOARD OF OTHER USERS, DATA COMPONENT  -->
+<!--THIS IS THE LEADERBOARD SCREEN, A UPDATING DATA PRESSICENCTENCE ADDING USERS HIGH SCORE AND ALLOWS FOR USERS TO ADD THERE OWN SCORE -->
 
+<!DOCTYPE html>
 <html>
-  
-  
-<meta name = "viewport" content = "width=device-width, user-scalable=no">
-  
-    <head>
-
-        <title>BASKETBALL CLICKER</title>
-      
-    </head>
-
-<body>
-
-    <div class="box">    </div>
 
 
-  <h9>v1.1.0.KAP.S</h9>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>LEADERBOARD</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-  
-   <h1>BASKETBALL CLICKER</h1>
+  <center>
+    <body>
 
-   <p id="start"> <a href="j-screen.html">PLAY</a> </p>
-
-   <h2>GAME LEADERBOARD <span class ="auto-type"></span>   </h2>
-
-   <h223>#1 SCORE: <span class ="auto-type"></span>   </h223>
-
-  <h224>#2 SCORE: <span class ="auto-type"></span>   </h224>
-
-    <h225>#3 SCORE: <span class ="auto-type"></span>   </h225>
-
-  
+      <p id="start"> <a href="j-screen.html">PLAY</a> </p>
 
 
+      <p style="font-size: 55px; font-family: Comic Sans ms; color: white">
+        Basketball Clicker <br /> Leaderboard
+      </p>
+      <script src="score-board-array.js"></script>
 
-  
-  <style>
+
+      <table
+        style="color: white; font-family: Comic Sans MS; font-size: 25px"
+        id="myTable"
+      >
+        <tr>
+          <td>GENDER</td>
+          <td>USERNAME</td>
+          <td>SCORE</td>
+          <td>DATE</td>
+        </tr>
+      </table>
+
+
+
+      <br />
+  <font style="font-family: Comic Sans MS; font-size: 20px" color="white"
+        >Gender:</font
+      >
+      <input type="text" id="image" />
+      <font style="font-family: Comic Sans MS; font-size: 20px" color="white"
+        >Username:</font
+      >
+      <input type="text" id="cellOne" />
+      <font style="font-family: Comic Sans MS; font-size: 20px" color="white"
+        >Score:</font
+      >
+      <input type="text" id="cellTwo" />
+      <font style="font-family: Comic Sans MS; font-size: 20px" color="white"
+        >Date:</font
+      >
+      <input type="text" id="cellThree" />
+
+      <button style="font-family: Comic Sans MS; font-size: 20px" onclick="addScore()">
+        ADD SCORE
+      </button>
+    </body>
+  </center>
+  <script>
     
-     body {
-       font-size: 30;
-background-image: url("start-background.png");       color: white;
-       font-family: Comic Sans MS;
-       
+    //This is the local storage to store the inputs
+    let scores =
+      localStorage.getItem("scores") == null
+        ? [
+            { c0: "MALE", c1: "Red Reaper", c2: 100, c3: "Jan, 21" },
+            { c0: "MALE", c1: "Karen66", c2: 100, c3: "Jan, 18" },
+            { c0: "MALE", c1: "KapKing21", c2: 100, c3: "Jan, 2" },
+            { c0: "MALE", c1: "LVS_93", c2: 100, c3: "Jan, 17" },
+            { c0: "MALE", c1: "Doomsday", c2: 100, c3: "Jan, 6" },
+          ]
+        : JSON.parse(localStorage.getItem("scores"));
+
+
+    //This function is to add a score to the database table
+    function addScore() {
+      let img = document.getElementById("image").value;
+      let name = document.getElementById("cellOne").value;
+      let id = document.getElementById("cellTwo").value;
+      let period = document.getElementById("cellThree").value;
+      let score = { c0: img, c1: name, c2: id, c3: period };
+      scores.push(score);
+
+      // store in local storage
+      localStorage.setItem("scores", JSON.stringify(scores));
+      // update ui
+      loadScore(score);
+    }
+
+    function loadScore(score) {
+      var table = document.getElementById("myTable");
+      //insertRow() creates the new row
+      var row = table.insertRow();
+      //insertCell() creates the new cell in the row
+      var cell0 = row.insertCell(0);
+      var cell1 = row.insertCell(1);
+      var cell2 = row.insertCell(2);
+      var cell3 = row.insertCell(3);
+      //Each variable called is taking the input value and adding it to the corresponding cell
+      cell0.innerHTML = score.c0;
+      cell1.innerHTML = score.c1;
+      cell2.innerHTML = score.c2;
+      cell3.innerHTML = score.c3;
       
     }
 
-      h1{
-              font-size: 70;
-        text-align: center;
-  background: orange;
-  font-family: 'Comic Sans MS';
-  color: rgb(248, 242, 242);
-     position: absolute;
-      left:620px;
-      top: 1px;
-  font-weight: bold;
-  border-radius: 100px;
-  padding: 60px;
-     
-
+    for (const score of scores) {
+      loadScore(score);
     }
-    
-      a{
-       font-size: 40;
-        text-align: center;
-  background: orange;
-  font-family: 'Comic Sans MS';
-  color: rgb(248, 242, 242);
-  font-weight: bold;
-  border-radius: 100px;
-  padding: 60px;
-      position: absolute;
-      left:950px;
-      top: 910px;
+  </script>
 
+<!-- DOING STYLE WITHIN CSS BECAUSE IT IS SHORT AND QUIXK  -->
+  
+ <style>
+    table,
+    th,
+    td {
+      border: 1px solid white;
+    }
+    html,
+    body {
+      height: 100%;
+      background-color: darkmagenta;
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+          a{
+  position: absolute;
+  left: 50%;
+  top: 750px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 68px;
+  font-family: Courier New;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background: darkmagenta;
+  padding: 8px 16px;
+  text-shadow: none;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease, text-shadow 0.25s ease;
  }
-
-      .box{
-      background-image: url("https://images.actionnetwork.com/blog/2019/04/Wob-NBA-Leaderboard.jpg");
-      height: 545px;
-      width: 870px;
-      position: absolute;
-      left:80px;
-      top: 320px;
-
-    }
-
-
-    
-         h9{
-    font-family: 'Comic Sans MS';
-    position: absolute;
-    font-size: 30px;
-    left: 16px;
-    top: 15px;
-    color: orange;
-    text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 10px hsla(278, 100%, 50%, 0.5),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1);
-
-
-
-    }
-
-      h2{
-              font-size: 48;
-        text-align: center;
-  font-family: 'Comic Sans MS';
-  color: red;
-  font-weight: bold;
-      position: absolute;
-      left:1320px;
-      top: 300px;
-
-    }
-
-          h223{
-              font-size: 48;
-        text-align: center;
-  font-family: 'Comic Sans MS';
-  color: red;
-  font-weight: bold;
-      position: absolute;
-      left:1120px;
-      top: 500px;
-
-    }
-
-          h224{
-              font-size: 48;
-        text-align: center;
-  font-family: 'Comic Sans MS';
-  color: red;
-  font-weight: bold;
-      position: absolute;
-      left:1120px;
-      top: 600px;
-
-    }
-
-          h225{
-              font-size: 48;
-        text-align: center;
-  font-family: 'Comic Sans MS';
-  color: red;
-  font-weight: bold;
-      position: absolute;
-      left:1120px;
-      top: 700px;
-
-    }
-
-
-
-
-    
+  
   </style>
 
-  
-  
-</body>
-
-  
-
-  
-
- </html>
+        
+</html>
